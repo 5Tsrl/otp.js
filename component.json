@@ -13,7 +13,8 @@
   },
   "development": {},
   "local": [
-    "leaflet.label"
+    "leaflet.label",
+    "jed"
   ],
   "paths": [
     "local"
@@ -39,6 +40,11 @@
     "lib/log.js",
     "lib/plan-request.js",
     "lib/plan-response-narrative-view.js",
+    "lib/localization.js",
+    "lib/models.js",
+    "lib/bike_views.js",
+    "lib/map_views.js",
+    "lib/narrative_views.js",
     "lib/plan-response-view.js",
     "lib/plan-response.js",
     "lib/request-form.js",
@@ -60,6 +66,13 @@
     "lib/styles/request-form.css",
     "lib/styles/tabs.css",
     "lib/styles/topo.css"
+  ],
+  "json" : [
+    "lib/locale/en.json",
+    "lib/locale/fr.json",
+    "lib/locale/sl.json",
+    "lib/locale/de.json",
+    "lib/locale/ca_ES.json"
   ],
   "images": [
     "lib/images"
