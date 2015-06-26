@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-26 17:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/narrative-itinerary.html:8
+msgid "Option"
+msgstr ""
+
+#: lib/transit-leg.html:23
+msgid "Time in transit"
+msgstr ""
+
+#: lib/transit-leg.html:27
+msgid "Alight"
+msgstr ""
+
+#: lib/narrative-adjust.html:2
+msgid ""
+"Drag start and end location pins on the map or use the form above to adjust "
+"trip settings."
+msgstr ""
+
+#: lib/narrative-new.html:3
+msgid ""
+"<strong>To plan a trip:</strong> select a start and end location by clicking "
+"the map or by entering an address above."
+msgstr ""
+
+#: lib/request-form.html:21
+msgid "Hide Settings"
+msgstr ""
+
+#: lib/request-form.html:22
+msgid "Show Settings"
+msgstr ""
+
+#: lib/request-form.html:31
+msgid "Arrive"
+msgstr ""
+
+#: lib/request-form.html:62
+msgid "Travel by"
+msgstr ""
+
+#: lib/request-form.html:66
+msgid "Transit"
+msgstr ""
+
+#: lib/request-form.html:68
+msgid "Rail Only"
+msgstr ""
+
+#: lib/request-form.html:70
+msgid "Bus Only"
+msgstr ""
+
+#: lib/request-form.html:72
+msgid "Walk Only"
+msgstr ""
+
+#: lib/request-form.html:74
+msgid "Bicycle Only"
+msgstr ""
+
+#: lib/request-form.html:84
+msgid "Find"
+msgstr ""
+
+#: lib/request-form.html:88
+msgid "Quickest trip"
+msgstr ""
+
+#: lib/request-form.html:90
+msgid "Fewest transfers"
+msgstr ""
+
+#: lib/request-form.html:100
+msgid "Wheelchair accesible trip:"
+msgstr ""
+
+#: lib/request-form.html:108
+msgid "Maximum walk"
+msgstr ""
+
+#: lib/request-form.html:137
+msgid "Maximum bike"
+msgstr ""
+
+#: lib/request-form.html:173
+msgid "Submit"
+msgstr ""
+
+#: lib/request-form.html:176
+msgid "Searching"
+msgstr ""
+
+#: lib/request-form.html:184
+msgid "First"
+msgstr ""
+
+#: lib/request-form.html:186
+msgid "Previous"
+msgstr ""
+
+#: lib/request-form.html:188
+msgid "Next"
+msgstr ""
+
+#: lib/request-form.html:190
+msgid "Last"
+msgstr ""
+
+#: lib/map-context-menu.html:3
+msgid "Set as Start Location"
+msgstr ""
+
+#: lib/map-context-menu.html:5
+msgid "Set as End Location"
+msgstr ""
+
+#: lib/transit-leg.html:7
+msgctxt "bus_direction"
+msgid " to "
+msgstr ""
+
+#: lib/transit-leg.html:7 lib/access-leg.html:6 lib/generic-leg.html:5
+msgctxt "direction"
+msgid " to "
+msgstr ""
+
+#: lib/transit-leg.html:20
+msgctxt "itinerary"
+msgid "Depart"
+msgstr ""
+
+#: lib/request-form.html:33
+msgctxt "tripoptions"
+msgid "Depart"
+msgstr ""
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
+#: lib/bike_views.js:33
+msgid "Quick"
+msgstr ""
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for flat terrain
+#: lib/bike_views.js:35
+msgid "Flat"
+msgstr ""
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for bike friendly infrastructure. Cycle roads etc...
+#: lib/bike_views.js:37
+msgid "Bike Friendly"
+msgstr ""
+
+#. TRANSLATORS: first letter of Bike Friendly
+#: lib/bike_views.js:79
+msgid "B"
+msgstr ""
+
+#. TRANSLATORS: first letter of Flat
+#: lib/bike_views.js:84
+msgid "F"
+msgstr ""
+
+#. TRANSLATORS: first letter of Quick
+#: lib/bike_views.js:89
+msgid "Q"
+msgstr ""
+
+#: lib/models.js:55
+msgid "Click the map or enter an address to select a start location"
+msgstr ""
+
+#: lib/models.js:57
+msgid "Click the map or enter an address to select an end location"
+msgstr ""
+
+#: lib/models.js:72 lib/models.js:80
+msgid ""
+"No transit trips found within 5 miles of your search, try adjusting your "
+"start or end locations. Only major metropolitan areas are currently covered. "
+"Please check back for expanded data coverage."
+msgstr ""
+
+#: lib/models.js:85 lib/models.js:89
+msgid ""
+"Problem finding results for those locations. Please enter a valid start and "
+"end location."
+msgstr ""
+
+#: lib/localization.js:39 lib/localization.js:52
+msgid "first"
+msgstr ""
+
+#: lib/localization.js:40
+msgid "second"
+msgstr ""
+
+#: lib/localization.js:41
+msgid "third"
+msgstr ""
+
+#: lib/localization.js:42
+msgid "fourth"
+msgstr ""
+
+#: lib/localization.js:43
+msgid "fifth"
+msgstr ""
+
+#: lib/localization.js:44
+msgid "sixth"
+msgstr ""
+
+#: lib/localization.js:45
+msgid "seventh"
+msgstr ""
+
+#: lib/localization.js:46
+msgid "eight"
+msgstr ""
+
+#: lib/localization.js:47
+msgid "ninth"
+msgstr ""
+
+#: lib/localization.js:48
+msgid "tenth"
+msgstr ""

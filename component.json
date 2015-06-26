@@ -68,7 +68,6 @@
     "lib/styles/topo.css"
   ],
   "json" : [
-    "lib/locale/en.json",
     "lib/locale/fr.json",
     "lib/locale/sl.json",
     "lib/locale/de.json",

@@ -1,0 +1,869 @@
+# French translations for OpenTripPlanner.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the OpenTripPlanner
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenTripPlanner VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-26 17:47+0200\n"
+"PO-Revision-Date: 2015-02-24 12:23+0100\n"
+"Last-Translator: Nicolas Derive <kalon33@ubuntu.com>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Generated-By: Babel 1.3\n"
+
+#: lib/narrative-itinerary.html:8
+#, fuzzy
+msgid "Option"
+msgstr "Paramètres de l'itinéraire"
+
+#: lib/transit-leg.html:23
+msgid "Time in transit"
+msgstr "Temps de correspondance"
+
+#: lib/transit-leg.html:27
+msgid "Alight"
+msgstr "Descendre"
+
+#: lib/narrative-adjust.html:2
+msgid ""
+"Drag start and end location pins on the map or use the form above to adjust "
+"trip settings."
+msgstr ""
+
+#: lib/narrative-new.html:3
+msgid ""
+"<strong>To plan a trip:</strong> select a start and end location by clicking "
+"the map or by entering an address above."
+msgstr ""
+
+#: lib/request-form.html:21
+msgid "Hide Settings"
+msgstr ""
+
+#: lib/request-form.html:22
+msgid "Show Settings"
+msgstr ""
+
+#: lib/request-form.html:31
+msgid "Arrive"
+msgstr "Arrivée"
+
+#: lib/request-form.html:62
+msgid "Travel by"
+msgstr "Voyager par"
+
+#: lib/request-form.html:66
+msgid "Transit"
+msgstr "Transports en commun"
+
+#: lib/request-form.html:68
+msgid "Rail Only"
+msgstr "Ferré uniquement"
+
+#: lib/request-form.html:70
+msgid "Bus Only"
+msgstr "Bus uniquement"
+
+#: lib/request-form.html:72
+msgid "Walk Only"
+msgstr "Marche seulement"
+
+#: lib/request-form.html:74
+msgid "Bicycle Only"
+msgstr "Vélo uniquement"
+
+#: lib/request-form.html:84
+msgid "Find"
+msgstr ""
+
+#: lib/request-form.html:88
+msgid "Quickest trip"
+msgstr ""
+
+#: lib/request-form.html:90
+#, fuzzy
+msgid "Fewest transfers"
+msgstr "correspondances"
+
+#: lib/request-form.html:100
+msgid "Wheelchair accesible trip:"
+msgstr "Accessible aux fauteuils roulants:"
+
+#: lib/request-form.html:108
+msgid "Maximum walk"
+msgstr "Marcher au maximum"
+
+#: lib/request-form.html:137
+msgid "Maximum bike"
+msgstr "Parcours à vélo maximum"
+
+#: lib/request-form.html:173
+msgid "Submit"
+msgstr ""
+
+#: lib/request-form.html:176
+#, fuzzy
+msgid "Searching"
+msgstr "Recherche"
+
+#: lib/request-form.html:184
+msgid "First"
+msgstr "Premier"
+
+#: lib/request-form.html:186
+msgid "Previous"
+msgstr "Précédent"
+
+#: lib/request-form.html:188
+msgid "Next"
+msgstr "Suivant"
+
+#: lib/request-form.html:190
+msgid "Last"
+msgstr "Dernier"
+
+#: lib/map-context-menu.html:3
+msgid "Set as Start Location"
+msgstr "Définir comme point de départ"
+
+#: lib/map-context-menu.html:5
+msgid "Set as End Location"
+msgstr "Définir comme point d'arrivée"
+
+#: lib/transit-leg.html:7
+msgctxt "bus_direction"
+msgid " to "
+msgstr " vers "
+
+#: lib/transit-leg.html:7 lib/access-leg.html:6 lib/generic-leg.html:5
+msgctxt "direction"
+msgid " to "
+msgstr " jusqu'à "
+
+#: lib/transit-leg.html:20
+msgctxt "itinerary"
+msgid "Depart"
+msgstr "Départ"
+
+#: lib/request-form.html:33
+msgctxt "tripoptions"
+msgid "Depart"
+msgstr "Départ"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
+#: lib/bike_views.js:33
+msgid "Quick"
+msgstr "Le plus Rapide"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for flat terrain
+#: lib/bike_views.js:35
+msgid "Flat"
+msgstr "Le plus Plat"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for bike friendly infrastructure. Cycle roads etc...
+#: lib/bike_views.js:37
+msgid "Bike Friendly"
+msgstr "Adapté au vélo"
+
+#. TRANSLATORS: first letter of Bike Friendly
+#: lib/bike_views.js:79
+msgid "B"
+msgstr "A"
+
+#. TRANSLATORS: first letter of Flat
+#: lib/bike_views.js:84
+msgid "F"
+msgstr "P"
+
+#. TRANSLATORS: first letter of Quick
+#: lib/bike_views.js:89
+msgid "Q"
+msgstr "R"
+
+#: lib/models.js:55
+msgid "Click the map or enter an address to select a start location"
+msgstr ""
+
+#: lib/models.js:57
+msgid "Click the map or enter an address to select an end location"
+msgstr ""
+
+#: lib/models.js:72 lib/models.js:80
+msgid ""
+"No transit trips found within 5 miles of your search, try adjusting your "
+"start or end locations. Only major metropolitan areas are currently covered. "
+"Please check back for expanded data coverage."
+msgstr ""
+
+#: lib/models.js:85 lib/models.js:89
+msgid ""
+"Problem finding results for those locations. Please enter a valid start and "
+"end location."
+msgstr ""
+
+#: lib/localization.js:39 lib/localization.js:52
+msgid "first"
+msgstr "première"
+
+#: lib/localization.js:40
+msgid "second"
+msgstr "seconde"
+
+#: lib/localization.js:41
+msgid "third"
+msgstr "troisième"
+
+#: lib/localization.js:42
+msgid "fourth"
+msgstr "quatrième"
+
+#: lib/localization.js:43
+msgid "fifth"
+msgstr "cinquième"
+
+#: lib/localization.js:44
+msgid "sixth"
+msgstr "sixième"
+
+#: lib/localization.js:45
+msgid "seventh"
+msgstr "septième"
+
+#: lib/localization.js:46
+msgid "eight"
+msgstr "huitième"
+
+#: lib/localization.js:47
+msgid "ninth"
+msgstr "neuvième"
+
+#: lib/localization.js:48
+msgid "tenth"
+msgstr "dixième"
+
+#~ msgid "Bicycle &amp; Transit"
+#~ msgstr "Transports en commun + Vélo"
+
+#~ msgid "Drive Only"
+#~ msgstr "Voiture seulement"
+
+#~ msgid "Park and Ride"
+#~ msgstr "Parc Relais"
+
+#~ msgid "Kiss and Ride"
+#~ msgstr "arrêt minute"
+
+#~ msgid "Bike and Ride"
+#~ msgstr "Parc Relais Vélo"
+
+#~ msgid "Rented Bicycle"
+#~ msgstr "Vélo Libre Service"
+
+#~ msgid "Transit & Rented Bicycle"
+#~ msgstr "Transports en commun et Vélo Libre Service"
+
+#~ msgid "Recenter Map Here"
+#~ msgstr "Centrer la carte ici"
+
+#~ msgid "Zoom In"
+#~ msgstr "Zoomer"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Dézoomer"
+
+#~ msgid "Minimize all"
+#~ msgstr "Tout minimiser"
+
+#~ msgid "Unminimize all"
+#~ msgstr "Tout restaurer"
+
+#~ msgid "Stop Viewer"
+#~ msgstr "Visualisateur d'arrêt"
+
+#~ msgid "Plan Trip"
+#~ msgstr "Organiser un voyage"
+
+#~ msgid "From Stop"
+#~ msgstr "De l'arrêt"
+
+#~ msgid "To Stop"
+#~ msgstr "À l'arrêt"
+
+#~ msgid "Routes Serving Stop"
+#~ msgstr "Lignes desservant l'arrêt"
+
+#~ msgid "Legend : travel time in minutes"
+#~ msgstr "Légende : temps de trajet en minutes"
+
+#~ msgid "Analyst"
+#~ msgstr "Analyseur"
+
+#~ msgid "Refresh"
+#~ msgstr "Rafraîchir"
+
+#~ msgid "Set as Analysis Location"
+#~ msgstr "Définir comme origine de l'analyse"
+
+#~ msgid "Bike Share Planner"
+#~ msgstr "Organisation en Vélo Libre Service"
+
+#~ msgid "PICK UP BIKE"
+#~ msgstr "Récupérer un vélo"
+
+#~ msgid "ALTERNATE PICKUP"
+#~ msgstr "Alternative de récupération de vélo"
+
+#~ msgid "DROP OFF BIKE"
+#~ msgstr "Déposer le vélo"
+
+#~ msgid "ALTERNATE DROP OFF"
+#~ msgstr "Alternative de dépôt de vélo"
+
+#~ msgid "BIKE STATION"
+#~ msgstr "Station de vélos"
+
+#~ msgid "Station:"
+#~ msgstr "Station :"
+
+#~ msgid "<strong>%d</strong> bike available"
+#~ msgid_plural "<strong>%d</strong> bikes available"
+#~ msgstr[0] "<strong>%d</strong> vélo disponible"
+#~ msgstr[1] "<strong>%d</strong> vélos disponibles"
+
+#~ msgid "<strong>%d</strong> dock available"
+#~ msgid_plural "<strong>%d</strong> docks available"
+#~ msgstr[0] "<strong>%d</strong> emplacements disponibles"
+#~ msgstr[1] "<strong>%d</strong> emplacements disponibles"
+
+#~ msgid "Recommended Pick Up:"
+#~ msgstr "Station de récupération de vélo recommandée :"
+
+#~ msgid "Recommended Drop Off:"
+#~ msgstr "Station de dépôt de vélo recommandée"
+
+#~ msgid "Multimodal Trip Planner"
+#~ msgstr "Planificateur d'itinéraires multimodal"
+
+#~ msgid "Itineraries"
+#~ msgstr "Itinéraires"
+
+#~ msgid "%d Itinerary Returned"
+#~ msgid_plural "%d Itineraries Returned"
+#~ msgstr[0] "%d itinéraire trouvé"
+#~ msgstr[1] "%d itinéraires trouvés"
+
+#~ msgid "Link to search"
+#~ msgstr "Lien vers cette recherche"
+
+#~ msgid "CONTINUES AS"
+#~ msgstr "Continue comme"
+
+#~ msgid "%d min late"
+#~ msgid_plural "%d mins late"
+#~ msgstr[0] "en retard de %d min"
+#~ msgstr[1] "en retard de %d mins"
+
+#~ msgid "%d min early"
+#~ msgid_plural "%d mins early"
+#~ msgstr[0] "en avance de %d min"
+#~ msgstr[1] "en avance de %d mins"
+
+#~ msgid "on time"
+#~ msgstr "à l'heure"
+
+#~ msgid "Total walk distance for this trip exceeds specified maximum"
+#~ msgstr ""
+#~ "La distance de marche totale pour ce voyage excède le maximum spécifié"
+
+#~ msgctxt "template"
+#~ msgid "Start"
+#~ msgstr "Départ"
+
+#~ msgid "End"
+#~ msgstr "Arrivée"
+
+#~ msgid "Trip Summary"
+#~ msgstr "Résumé du voyage"
+
+#~ msgid "Travel"
+#~ msgstr "Voyage"
+
+#~ msgid "Time"
+#~ msgstr "Durée"
+
+#~ msgid "Total Walk"
+#~ msgstr "Total de marche"
+
+#~ msgid "Total Bike"
+#~ msgstr "Total de vélo"
+
+#~ msgid "Fare"
+#~ msgstr "Tarif"
+
+#~ msgid "Valid"
+#~ msgstr "Valide le"
+
+#~ msgid "Link to Itinerary"
+#~ msgstr "Lien vers l'itinéraire"
+
+#~ msgid "Print"
+#~ msgstr "Imprimer"
+
+#~ msgid "Your Trip"
+#~ msgstr "Votre voyage"
+
+#~ msgid "Email"
+#~ msgstr "Courriel"
+
+#~ msgid "every %d min"
+#~ msgid_plural "every %d mins"
+#~ msgstr[0] "toutes les %d min"
+#~ msgstr[1] "toutes les %d mins"
+
+#~ msgid "<b>Board</b> at "
+#~ msgstr "<b>Montez</b> à "
+
+#~ msgid "Stop"
+#~ msgstr "Arrêt"
+
+#~ msgid "Trip Viewer"
+#~ msgstr "Visualisateur de voyage"
+
+#~ msgid "late as"
+#~ msgstr "en retard à"
+
+#~ msgid "Stay on board"
+#~ msgstr "rester à bord"
+
+#~ msgid "at"
+#~ msgstr "à"
+
+#~ msgid "%(currency)s %(price)s"
+#~ msgstr "%(price)s %(currency)s"
+
+#~ msgid "Start: %(location)s at %(time_date)s"
+#~ msgstr "Départ : %(location)s à %(time_date)s"
+
+#~ msgid "Board"
+#~ msgstr "Monter"
+
+#~ msgid "(%(agency_id)s Stop ID #%(stop_id)s),"
+#~ msgstr "arrêt #%(stop_id)s) de (%(agency_id)s,"
+
+#~ msgid "End: %(location)s at %(time_date)s"
+#~ msgstr "Arrivée : %(location)s à %(time_date)s"
+
+#~ msgid ""
+#~ "\n"
+#~ "View itinerary online:\n"
+#~ "%(itinerary_link)s\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Voir l'itinéraire en ligne :\n"
+#~ "%(itinerary_link)s\n"
+
+#~ msgid ""
+#~ "We're sorry. The trip planner is temporarily unavailable. Please try "
+#~ "again later."
+#~ msgstr ""
+#~ "Nous sommes désolé. Le planificateur de voyage est temporairement "
+#~ "indisponible. Merci de réessayer plus tard."
+
+#~ msgid ""
+#~ "Trip is not possible.  You might be trying to plan a trip outside the map "
+#~ "data boundary."
+#~ msgstr ""
+#~ "Ce trajet n'est pas possible. Vous essayez probablement de planifier un "
+#~ "trajet en dehors des limites de la zone couverte."
+
+#~ msgid ""
+#~ "Trip is not possible.  Your start or end point might not be safely "
+#~ "accessible (for instance), you might be starting on a residential street "
+#~ "connected only to a highway)."
+#~ msgstr ""
+#~ "Ce trajet n'est pas possible. Vos points de départ et d'arrivée peuvent "
+#~ "ne pas être accessible de manière sûre (par exemple, vous commencez peut "
+#~ "être votre trajet sur une route résidentielle uniquement reliée à une "
+#~ "autoroute)."
+
+#~ msgid ""
+#~ "No transit times available. The date may be past or too far in the future "
+#~ "or there may not be transit service for your trip at the time you chose."
+#~ msgstr ""
+#~ "Aucune durée de voyage disponible. La date est peut être passée ou trop "
+#~ "loin dans le futur, ou il n'y a peut être pas de transports en service "
+#~ "pour votre trajet à l'heure choisie."
+
+#~ msgid ""
+#~ "The trip planner is taking way too long to process your request. Please "
+#~ "try again later."
+#~ msgstr ""
+#~ "Le planificateur de voyage prend largement trop de temps à étudier votre "
+#~ "demande. Merci de réessayer plus tard."
+
+#~ msgid ""
+#~ "The request has errors that the server is not willing or able to process."
+#~ msgstr ""
+#~ "La requête renvoie des erreurs que le serveur ne souhaite ou ne peut pas "
+#~ "traiter."
+
+#~ msgid "Origin is unknown. Can you be a bit more descriptive?"
+#~ msgstr "L'origine est inconnue. Pouvez-vous être plus précis ?"
+
+#~ msgid "Destination is unknown.  Can you be a bit more descriptive?"
+#~ msgstr "La destination est inconnue. Pouvez-vous être plus précis ?"
+
+#~ msgid ""
+#~ "Both origin and destination are unknown. Can you be a bit more "
+#~ "descriptive?"
+#~ msgstr ""
+#~ "L'origine et la destination sont toutes deux inconnues. Pouvez-vous être "
+#~ "plus précis ?"
+
+#~ msgid "Both origin and destination are not wheelchair accessible"
+#~ msgstr ""
+#~ "Ni l'origine ni la destination ne sont accessibles en fauteuil roulant"
+
+#~ msgid "Origin is within a trivial distance of the destination."
+#~ msgstr "L'origine est à une distance trop courte de la destination."
+
+#~ msgid ""
+#~ "The trip planner is unsure of the location you want to start from. Please "
+#~ "select from the following options, or be more specific."
+#~ msgstr ""
+#~ "Le planificateur de voyage n'est pas sûr du lieu d'où vous voulez partir. "
+#~ "Merci de le sélectionner parmi les options suivantes, ou d'être plus "
+#~ "précis."
+
+#~ msgid ""
+#~ "The trip planner is unsure of the destination you want to go to. Please "
+#~ "select from the following options, or be more specific."
+#~ msgstr ""
+#~ "Le planificateur de voyage n'est pas sûr du lieu où vous désirez vous "
+#~ "rendre. Merci de le sélectionner parmi les options suivantes, ou d'être "
+#~ "plus précis."
+
+#~ msgid ""
+#~ "Both origin and destination are ambiguous. Please select from the "
+#~ "following options, or be more specific."
+#~ msgstr ""
+#~ "L'origine et la destination sont toutes deux ambigües. Merci de les "
+#~ "sélectionner parmi les options suivantes, ou d'être plus précis."
+
+#~ msgid ""
+#~ "All of triangleSafetyFactor, triangleSlopeFactor, and triangleTimeFactor "
+#~ "must be set if any are"
+#~ msgstr ""
+#~ "Toutes les options triangleSafetyFactor, triangleSlopeFactor, et "
+#~ "triangleTimeFactor doivent être paramétrées si l'une d'elles l'est"
+
+#~ msgid ""
+#~ "The values of triangleSafetyFactor, triangleSlopeFactor, and "
+#~ "triangleTimeFactor must sum to 1"
+#~ msgstr ""
+#~ "Les valeurs de triangleSafetyFactor, triangleSlopeFactor, et "
+#~ "triangleTimeFactor doivent avoir pour addition 1"
+
+#~ msgid ""
+#~ "If triangleSafetyFactor, triangleSlopeFactor, and triangleTimeFactor are "
+#~ "provided, OptimizeType must be TRIANGLE"
+#~ msgstr ""
+#~ "Si triangleSafetyFactor, triangleSlopeFactor, et triangleTimeFactor sont "
+#~ "fournis, OptimizeType doit être TRIANGLE"
+
+#~ msgid ""
+#~ "If OptimizeType is TRIANGLE, triangleSafetyFactor, triangleSlopeFactor, "
+#~ "and triangleTimeFactor must be set"
+#~ msgstr ""
+#~ "Si OptimizeType est TRIANGLE, triangleSafetyFactor, triangleSlopeFactor, "
+#~ "et triangleTimeFactor doivent être paramétrées"
+
+#~ msgctxt "popup"
+#~ msgid "Start"
+#~ msgstr "Départ"
+
+#~ msgid "Destination"
+#~ msgstr "Destination"
+
+#~ msgid "Error %(error_id)d"
+#~ msgstr "Erreur %(error_id)d"
+
+#~ msgid "No Trip Found"
+#~ msgstr "Aucun voyage trouvé"
+
+#~ msgid "Your %(bike_share_name)s route"
+#~ msgstr "Votre itinéraire en %(bike_share_name)s"
+
+#~ msgid "Your bike route"
+#~ msgstr "Votre itinéraire en vélo"
+
+#~ msgid "Walk to the %(bike_share_name)s dock."
+#~ msgstr "Marcher jusqu'à l'emplacement %(bike_share_name)s."
+
+#~ msgid "Walk from the %(bike_share_name)s dock to your destination."
+#~ msgstr ""
+#~ "Marcher de l'emplacement %(bike_share_name)s jusqu'à votre destination"
+
+#~ msgid "Your walk route"
+#~ msgstr "Votre itinéraire à pieds"
+
+#~ msgid "north"
+#~ msgstr "nord"
+
+#~ msgid "northeast"
+#~ msgstr "nord-est"
+
+#~ msgid "east"
+#~ msgstr "est"
+
+#~ msgid "southeast"
+#~ msgstr "sud-est"
+
+#~ msgid "south"
+#~ msgstr "sud"
+
+#~ msgid "southwest"
+#~ msgstr "sud-ouest"
+
+#~ msgid "west"
+#~ msgstr "ouest"
+
+#~ msgid "northwest"
+#~ msgstr "nord-ouest"
+
+#~ msgctxt "itinerary"
+#~ msgid "depart"
+#~ msgstr "Départ"
+
+#~ msgid "hard left"
+#~ msgstr "complètement à gauche"
+
+#~ msgid "left"
+#~ msgstr "à gauche"
+
+#~ msgid "slight left"
+#~ msgstr "légèrement à gauche"
+
+#~ msgid "continue"
+#~ msgstr "continuer"
+
+#~ msgid "slight right"
+#~ msgstr "légèrement à droite"
+
+#~ msgid "right"
+#~ msgstr "à droite"
+
+#~ msgid "hard right"
+#~ msgstr "complètement à droite"
+
+#~ msgid "elevator"
+#~ msgstr "ascenseur"
+
+#~ msgid "U-turn left"
+#~ msgstr "virage en U à gauche"
+
+#~ msgid "U-turn right"
+#~ msgstr "virage en U à droite"
+
+#~ msgid "Walk"
+#~ msgstr "Marche à pied"
+
+#~ msgid "Cycle"
+#~ msgstr "Vélo"
+
+#~ msgid "Car"
+#~ msgstr "Voiture"
+
+#~ msgid "Bus"
+#~ msgstr "Bus"
+
+#~ msgid "Subway"
+#~ msgstr "Métro"
+
+#~ msgid "Train"
+#~ msgstr "Train"
+
+#~ msgid "Ferry"
+#~ msgstr "Ferry"
+
+#~ msgid "Light Rail"
+#~ msgstr "Tram ou Trolley"
+
+#~ msgid "Cable Car"
+#~ msgstr "Tramway funiculaire"
+
+#~ msgid "Funicular"
+#~ msgstr "Funiculaire"
+
+#~ msgid "Aerial Tram"
+#~ msgstr "Téléphérique"
+
+#~ msgid "Bicycle rental station"
+#~ msgstr "Station de vélo libre service"
+
+#~ msgid "Bicycle rental"
+#~ msgstr "Station de vélo libre service"
+
+#~ msgid ""
+#~ "Take roundabout <b>counterclockwise</b> to <b>%(ordinal_exit_number)s</b> "
+#~ "exit on <b>%(street_name)s</b>"
+#~ msgstr ""
+#~ "Prendre le rond-point <b>dans le sens contraire des aiguilles d'une "
+#~ "montre</b> jusqu'à la <b>%(ordinal_exit_number)s</b> sortie sur <b>"
+#~ "%(street_name)s</b>"
+
+#~ msgid ""
+#~ "Take roundabout counterclockwise to %(ordinal_exit_number)s exit on "
+#~ "%(street_name)s"
+#~ msgstr ""
+#~ "Prendre le rond-point dans le sens contraire des aiguilles d'une montre "
+#~ "jusqu'à la %(ordinal_exit_number)s sortie sur %(street_name)s"
+
+#~ msgid ""
+#~ "Take roundabout <b>clockwise</b> to <b>%(ordinal_exit_number)s</b> exit "
+#~ "on <b>%(street_name)s</b>"
+#~ msgstr ""
+#~ "Prendre le rond-point <b>dans le sens des aiguilles d'une montre</b> "
+#~ "jusqu'à la <b>%(ordinal_exit_number)s</b> sortie sur <b>%(street_name)s</"
+#~ "b>"
+
+#~ msgid ""
+#~ "Take roundabout clockwise to %(ordinal_exit_number)s exit on "
+#~ "%(street_name)s"
+#~ msgstr ""
+#~ "Prendre le rond-point dans le sens des aiguilles d'une montre jusqu'à la "
+#~ "%(ordinal_exit_number)s sortie sur %(street_name)s"
+
+#~ msgid "Start on"
+#~ msgstr "Partir de"
+
+#~ msgid " heading "
+#~ msgstr " vers le "
+
+#~ msgid "to continue on"
+#~ msgstr "pour continuer sur"
+
+#~ msgid "on to"
+#~ msgstr "sur"
+
+#~ msgid "%d hr"
+#~ msgid_plural "%d hrs"
+#~ msgstr[0] "%d h"
+#~ msgstr[1] "%d h"
+
+#~ msgid "%d min"
+#~ msgid_plural "%d mins"
+#~ msgstr[0] "%d min"
+#~ msgstr[1] "%d mins"
+
+#~ msgid "%d sec"
+#~ msgid_plural "%d secs"
+#~ msgstr[0] "%d s"
+#~ msgstr[1] "%d s"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimiser"
+
+#~ msgid "Bring to front"
+#~ msgstr "Placer au dessus"
+
+#~ msgid "Send to back"
+#~ msgstr "Placer en dessous"
+
+#~ msgid "Route:"
+#~ msgstr "Ligne :"
+
+#~ msgid "Variant:"
+#~ msgstr "Variante :"
+
+#~ msgid "Stop Finder"
+#~ msgstr "Recherche d'arrêt"
+
+#~ msgid "Agency"
+#~ msgstr "Transporteur"
+
+#~ msgid "By ID"
+#~ msgstr "Par identifiant"
+
+#~ msgid "By Name"
+#~ msgstr "Par nom"
+
+#~ msgid "No Stops Found"
+#~ msgstr "Aucun arrêt trouvé"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "Find Stops"
+#~ msgstr "Trouver les arrêts"
+
+#~ msgid "(No Stop Selected)"
+#~ msgstr "(Aucun arrêt sélectionné)"
+
+#~ msgid "Block"
+#~ msgstr "Bloc"
+
+#~ msgid "Recenter"
+#~ msgstr "Recentrer"
+
+#~ msgid "Viewer"
+#~ msgstr "Visualisateur"
+
+#~ msgid "All Routes"
+#~ msgstr "Tous les itinéraires"
+
+#~ msgid "Save"
+#~ msgstr "Sauvegarder"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Travel Options"
+#~ msgstr "Paramètres de voyage"
+
+#~ msgid "Geocoder"
+#~ msgstr "Géocodeur"
+
+#~ msgid "Now"
+#~ msgstr "Maintenant"
+
+#~ msgid "Presets"
+#~ msgstr "Val. pré-définies"
+
+#~ msgid "Preferred Routes"
+#~ msgstr "Itinéraires préférés"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "None"
+#~ msgstr "Aucune"
+
+#~ msgid "Weight"
+#~ msgstr "Pondération"
+
+#~ msgid "Banned routes"
+#~ msgstr "Itinéraires à éviter"
+
+#~ msgid "Use"
+#~ msgstr "Utiliser"
+
+#~ msgid "My Own Bike"
+#~ msgstr "mon propre vélo"
+
+#~ msgid "A Shared Bike"
+#~ msgstr "un Vélo Libre Service"
+
+#~ msgid "Plan Your Trip"
+#~ msgstr "Calculer votre itinéraire"

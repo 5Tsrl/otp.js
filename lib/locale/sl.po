@@ -1,0 +1,820 @@
+# Slovenian translations for OpenTripPlanner.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the OpenTripPlanner
+# project.
+# Marko Burjek <email4marko@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenTripPlanner VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-26 17:47+0200\n"
+"PO-Revision-Date: 2015-06-26 12:14+0100\n"
+"Last-Translator: Marko Burjek\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"Generated-By: Babel 1.3\n"
+"X-Generator: Poedit 1.8.1\n"
+
+#: lib/narrative-itinerary.html:8
+#, fuzzy
+msgid "Option"
+msgstr "Različica"
+
+#: lib/transit-leg.html:23
+msgid "Time in transit"
+msgstr "Časa na vožnji"
+
+#: lib/transit-leg.html:27
+msgid "Alight"
+msgstr "Izstop"
+
+#: lib/narrative-adjust.html:2
+msgid ""
+"Drag start and end location pins on the map or use the form above to adjust "
+"trip settings."
+msgstr ""
+
+#: lib/narrative-new.html:3
+msgid ""
+"<strong>To plan a trip:</strong> select a start and end location by clicking "
+"the map or by entering an address above."
+msgstr ""
+
+#: lib/request-form.html:21
+msgid "Hide Settings"
+msgstr "Skrij nastavitve"
+
+#: lib/request-form.html:22
+msgid "Show Settings"
+msgstr "Pokaži nastavitve"
+
+#: lib/request-form.html:31
+msgid "Arrive"
+msgstr "Prihod do"
+
+#: lib/request-form.html:62
+msgid "Travel by"
+msgstr "Način potovanja "
+
+#: lib/request-form.html:66
+msgid "Transit"
+msgstr "Javni prevoz"
+
+#: lib/request-form.html:68
+msgid "Rail Only"
+msgstr "Vlak"
+
+#: lib/request-form.html:70
+msgid "Bus Only"
+msgstr "Avtobus"
+
+#: lib/request-form.html:72
+msgid "Walk Only"
+msgstr "Pešačenje"
+
+#: lib/request-form.html:74
+msgid "Bicycle Only"
+msgstr "Kolo"
+
+#: lib/request-form.html:84
+msgid "Find"
+msgstr "Poišči"
+
+#: lib/request-form.html:88
+msgid "Quickest trip"
+msgstr "Najhitrejšo pot"
+
+#: lib/request-form.html:90
+msgid "Fewest transfers"
+msgstr "čim manj prestopov"
+
+#: lib/request-form.html:100
+msgid "Wheelchair accesible trip:"
+msgstr "Primerno za invalidske vozičke:"
+
+#: lib/request-form.html:108
+#, fuzzy
+msgid "Maximum walk"
+msgstr "Največja razdalja peš"
+
+#: lib/request-form.html:137
+#, fuzzy
+msgid "Maximum bike"
+msgstr "Največja razdalja kolesarjenja"
+
+#: lib/request-form.html:173
+msgid "Submit"
+msgstr ""
+
+#: lib/request-form.html:176
+msgid "Searching"
+msgstr "Iskanje"
+
+#: lib/request-form.html:184
+msgid "First"
+msgstr "Prva"
+
+#: lib/request-form.html:186
+msgid "Previous"
+msgstr "Prejšnja"
+
+#: lib/request-form.html:188
+msgid "Next"
+msgstr "Naslednja"
+
+#: lib/request-form.html:190
+msgid "Last"
+msgstr "Zadnja"
+
+#: lib/map-context-menu.html:3
+msgid "Set as Start Location"
+msgstr "Začetek poti"
+
+#: lib/map-context-menu.html:5
+msgid "Set as End Location"
+msgstr "Konec poti"
+
+#: lib/transit-leg.html:7
+msgctxt "bus_direction"
+msgid " to "
+msgstr " smer "
+
+#: lib/transit-leg.html:7 lib/access-leg.html:6 lib/generic-leg.html:5
+msgctxt "direction"
+msgid " to "
+msgstr " do "
+
+#: lib/transit-leg.html:20
+#, fuzzy
+msgctxt "itinerary"
+msgid "Depart"
+msgstr "Odhod"
+
+#: lib/request-form.html:33
+msgctxt "tripoptions"
+msgid "Depart"
+msgstr "Odhod ob"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
+#: lib/bike_views.js:33
+msgid "Quick"
+msgstr "Hitro"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for flat terrain
+#: lib/bike_views.js:35
+msgid "Flat"
+msgstr "Položno"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for bike friendly infrastructure. Cycle roads etc...
+#: lib/bike_views.js:37
+msgid "Bike Friendly"
+msgstr "Kolesarju prijazno"
+
+#. TRANSLATORS: first letter of Bike Friendly
+#: lib/bike_views.js:79
+msgid "B"
+msgstr "K"
+
+#. TRANSLATORS: first letter of Flat
+#: lib/bike_views.js:84
+msgid "F"
+msgstr "P"
+
+#. TRANSLATORS: first letter of Quick
+#: lib/bike_views.js:89
+msgid "Q"
+msgstr "H"
+
+#: lib/models.js:55
+msgid "Click the map or enter an address to select a start location"
+msgstr ""
+
+#: lib/models.js:57
+msgid "Click the map or enter an address to select an end location"
+msgstr ""
+
+#: lib/models.js:72 lib/models.js:80
+msgid ""
+"No transit trips found within 5 miles of your search, try adjusting your "
+"start or end locations. Only major metropolitan areas are currently covered. "
+"Please check back for expanded data coverage."
+msgstr ""
+
+#: lib/models.js:85 lib/models.js:89
+msgid ""
+"Problem finding results for those locations. Please enter a valid start and "
+"end location."
+msgstr ""
+
+#: lib/localization.js:39 lib/localization.js:52
+msgid "first"
+msgstr "prvem"
+
+#: lib/localization.js:40
+msgid "second"
+msgstr "drugem"
+
+#: lib/localization.js:41
+msgid "third"
+msgstr "tretjem"
+
+#: lib/localization.js:42
+msgid "fourth"
+msgstr "četrtem"
+
+#: lib/localization.js:43
+msgid "fifth"
+msgstr "petem"
+
+#: lib/localization.js:44
+msgid "sixth"
+msgstr "šestem"
+
+#: lib/localization.js:45
+msgid "seventh"
+msgstr "sedmem"
+
+#: lib/localization.js:46
+msgid "eight"
+msgstr "osmem"
+
+#: lib/localization.js:47
+msgid "ninth"
+msgstr "devetem"
+
+#: lib/localization.js:48
+msgid "tenth"
+msgstr "desetem"
+
+#~ msgid "Bicycle &amp; Transit"
+#~ msgstr "Kolo &amp; Javni prevoz"
+
+#~ msgid "Drive Only"
+#~ msgstr "Avto"
+
+#~ msgid "Park and Ride"
+#~ msgstr "Parkiraj in se pelji"
+
+#~ msgid "Rented Bicycle"
+#~ msgstr "Izposojeno kolo"
+
+#~ msgid "Transit & Rented Bicycle"
+#~ msgstr "Izposojeno kolo &amp; Javni prevoz"
+
+#~ msgid "Recenter Map Here"
+#~ msgstr "Prikaži karto tukaj"
+
+#~ msgid "Zoom In"
+#~ msgstr "Približaj"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Oddalji"
+
+#~ msgid "Minimize all"
+#~ msgstr "Skrči vse"
+
+#~ msgid "Unminimize all"
+#~ msgstr "Razširi vse"
+
+#~ msgid "Stop Viewer"
+#~ msgstr "Pregledovalnik postaj"
+
+#~ msgid "Plan Trip"
+#~ msgstr "Načrtuj pot"
+
+#~ msgid "From Stop"
+#~ msgstr "Začetna postaja"
+
+#~ msgid "To Stop"
+#~ msgstr "Končna postaja"
+
+#~ msgid "Routes Serving Stop"
+#~ msgstr "Avtobusi, ki ustavljajo na postaji"
+
+#~ msgid "Legend : travel time in minutes"
+#~ msgstr "Legenda: potovalni čas v minutah"
+
+#, fuzzy
+#~ msgid "Analyst"
+#~ msgstr "Analitik"
+
+#~ msgid "Refresh"
+#~ msgstr "Osveži"
+
+#, fuzzy
+#~ msgid "Set as Analysis Location"
+#~ msgstr "Uporabi kot lokacijo Analitika"
+
+#~ msgid "Bike Share Planner"
+#~ msgstr "Planer za izposojena kolesa"
+
+#~ msgid "PICK UP BIKE"
+#~ msgstr "IZPOSOJA KOLESA"
+
+#~ msgid "ALTERNATE PICKUP"
+#~ msgstr "ALTERNATIVNO MESTO IZPOSOJE"
+
+#~ msgid "DROP OFF BIKE"
+#~ msgstr "VRNITEV KOLESA"
+
+#~ msgid "ALTERNATE DROP OFF"
+#~ msgstr "ALTERNATIVNO MESTO VRNITVE KOLESA"
+
+#~ msgid "BIKE STATION"
+#~ msgstr "IZPOSOJEVALNA POSTAJA"
+
+#~ msgid "Station:"
+#~ msgstr "Postaja:"
+
+#~ msgid "<strong>%d</strong> bike available"
+#~ msgid_plural "<strong>%d</strong> bikes available"
+#~ msgstr[0] "<strong>%d</strong> koles na voljo"
+#~ msgstr[1] "<strong>%d</strong> kolo na voljo"
+#~ msgstr[2] "<strong>%d</strong> kolesi na voljo"
+#~ msgstr[3] "<strong>%d</strong> kolesa na voljo"
+
+#~ msgid "<strong>%d</strong> dock available"
+#~ msgid_plural "<strong>%d</strong> docks available"
+#~ msgstr[0] "<strong>%d</strong> prostorov na voljo"
+#~ msgstr[1] "<strong>%d</strong> prostor na voljo"
+#~ msgstr[2] "<strong>%d</strong> prostora na voljo"
+#~ msgstr[3] "<strong>%d</strong> prostori na voljo"
+
+#~ msgid "Recommended Pick Up:"
+#~ msgstr "Predlagana postaja za izposojo kolesa:"
+
+#~ msgid "Recommended Drop Off:"
+#~ msgstr "Predlagana postaja za vrnitev kolesa:"
+
+#~ msgid "Multimodal Trip Planner"
+#~ msgstr "Načrtovalnik poti"
+
+#~ msgid "Itineraries"
+#~ msgstr "Načrti poti"
+
+#~ msgid "%d Itinerary Returned"
+#~ msgid_plural "%d Itineraries Returned"
+#~ msgstr[0] "%d vrnjenih načrtov poti"
+#~ msgstr[1] "%d vrnjen načrt poti"
+#~ msgstr[2] "%d vrnjena načrta poti"
+#~ msgstr[3] "%d vrnjeni načrti poti"
+
+#~ msgid "Link to search"
+#~ msgstr "Iskanje"
+
+#~ msgid "CONTINUES AS"
+#~ msgstr "SE NADALJUJE KOT"
+
+#~ msgid "%d min late"
+#~ msgid_plural "%d mins late"
+#~ msgstr[0] "%d min. zamude"
+#~ msgstr[1] "%d min. zamude"
+#~ msgstr[2] "%d min. zamude"
+#~ msgstr[3] "%d min. zamude"
+
+#~ msgid "%d min early"
+#~ msgid_plural "%d mins early"
+#~ msgstr[0] "%d min. prehitro"
+#~ msgstr[1] "%d min. prehitro"
+#~ msgstr[2] "%d min. prehitro"
+#~ msgstr[3] "%d min. prehitro"
+
+#, fuzzy
+#~ msgid "on time"
+#~ msgstr "pravočasno"
+
+#, fuzzy
+#~ msgid "Total walk distance for this trip exceeds specified maximum"
+#~ msgstr "Skupna dolžina hoje za to pot je več kot nastavljen maksimum."
+
+#, fuzzy
+#~ msgctxt "template"
+#~ msgid "Start"
+#~ msgstr "Začetek"
+
+#~ msgid "End"
+#~ msgstr "Konec"
+
+#~ msgid "Trip Summary"
+#~ msgstr "Povzetek poti"
+
+#~ msgid "Travel"
+#~ msgstr "Potuj ob"
+
+#~ msgid "Time"
+#~ msgstr "Trajanje"
+
+#~ msgid "Total Walk"
+#~ msgstr "Skupno hoje"
+
+#~ msgid "Total Bike"
+#~ msgstr "Skupno kolesarjenja"
+
+#~ msgid "Fare"
+#~ msgstr "Cena"
+
+#~ msgid "Valid"
+#~ msgstr "Veljavno"
+
+#~ msgid "Link to Itinerary"
+#~ msgstr "Načrt poti"
+
+#~ msgid "Print"
+#~ msgstr "Natisni"
+
+#~ msgid "Your Trip"
+#~ msgstr "Vaša pot"
+
+#~ msgid "Email"
+#~ msgstr "E-pošta"
+
+#~ msgid "every %d min"
+#~ msgid_plural "every %d mins"
+#~ msgstr[0] "vsakih %d min"
+#~ msgstr[1] "vsako %d min"
+#~ msgstr[2] "vsaki %d min"
+#~ msgstr[3] "vsake %d min"
+
+#~ msgid "<b>Board</b> at "
+#~ msgstr "<b>Vstop</b> na "
+
+#~ msgid "Stop"
+#~ msgstr "Postaja"
+
+#~ msgid "Trip Viewer"
+#~ msgstr "Pregledovalnik poti"
+
+#, fuzzy
+#~ msgid "Stay on board"
+#~ msgstr "Ostanite v vozilu"
+
+#~ msgid "at"
+#~ msgstr "na"
+
+#~ msgid "%(currency)s %(price)s"
+#~ msgstr "%(price)s %(currency)s"
+
+#~ msgid "Start: %(location)s at %(time_date)s"
+#~ msgstr "Začetek: %(location)s ob %(time_date)s"
+
+#~ msgid "Board"
+#~ msgstr "Vstop"
+
+#~ msgid "(%(agency_id)s Stop ID #%(stop_id)s),"
+#~ msgstr "(%(agency_id)s),"
+
+#~ msgid "End: %(location)s at %(time_date)s"
+#~ msgstr "Konec: %(location)s ob %(time_date)s"
+
+#~ msgid ""
+#~ "\n"
+#~ "View itinerary online:\n"
+#~ "%(itinerary_link)s\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Oglejte si načrt poti na spletu:\n"
+#~ "%(itinerary_link)s\n"
+
+#~ msgid ""
+#~ "We're sorry. The trip planner is temporarily unavailable. Please try "
+#~ "again later."
+#~ msgstr ""
+#~ "Opravičujemo se. Daljinar trenutno ni na voljo. Prosimo poskusite kasneje."
+
+#~ msgid ""
+#~ "Trip is not possible.  You might be trying to plan a trip outside the map "
+#~ "data boundary."
+#~ msgstr "Pot ni mogoča. Mogoče poskušate načrtovati pot izven meja karte."
+
+#~ msgid ""
+#~ "Trip is not possible.  Your start or end point might not be safely "
+#~ "accessible (for instance), you might be starting on a residential street "
+#~ "connected only to a highway)."
+#~ msgstr ""
+#~ "Pot ni mogoča. Do začetne ali končne točke ni mogoče varno priti (na "
+#~ "primer), mogoče začenjate na lokalni cesti, ki je povezana samo na "
+#~ "avtocesto."
+
+#~ msgid ""
+#~ "No transit times available. The date may be past or too far in the future "
+#~ "or there may not be transit service for your trip at the time you chose."
+#~ msgstr ""
+#~ "Podatki o voznih redih niso na voljo. Mogoče je datum preveč v "
+#~ "preteklosti ali prihodnosti ali pa javni prevoz ne obstaja za pot, ki jo "
+#~ "načrtujete."
+
+#~ msgid ""
+#~ "The trip planner is taking way too long to process your request. Please "
+#~ "try again later."
+#~ msgstr ""
+#~ "Daljinar potrebuje preveč časa za obdelavo vašega zahtevka. Prosimo "
+#~ "poskusite znova kasneje."
+
+#~ msgid ""
+#~ "The request has errors that the server is not willing or able to process."
+#~ msgstr "Zahtevek ima napake, ki jih strežnik ne more obdelati."
+
+#~ msgid "Origin is unknown. Can you be a bit more descriptive?"
+#~ msgstr "Začetek poti ni znan. Prosimo bodite bolj natančni."
+
+#~ msgid "Destination is unknown.  Can you be a bit more descriptive?"
+#~ msgstr "Konec poti ni znan. Prosimo bodite bolj natančni."
+
+#~ msgid ""
+#~ "Both origin and destination are unknown. Can you be a bit more "
+#~ "descriptive?"
+#~ msgstr "Začetek in konec sta neznana. Prosimo bodite bolj natančni."
+
+#~ msgid "Both origin and destination are not wheelchair accessible"
+#~ msgstr "Do začetka in konca ni mogoče priti z vozičkom."
+
+#~ msgid "Origin is within a trivial distance of the destination."
+#~ msgstr "Začetek je trivialno oddaljen od konec."
+
+#, fuzzy
+#~ msgctxt "popup"
+#~ msgid "Start"
+#~ msgstr "Začetek"
+
+#~ msgid "Destination"
+#~ msgstr "Konec"
+
+#~ msgid "Error %(error_id)d"
+#~ msgstr "Napaka %(error_id)d"
+
+#~ msgid "No Trip Found"
+#~ msgstr "Ne najdemo poti"
+
+#~ msgid "Your %(bike_share_name)s route"
+#~ msgstr "Kolesarjenje s kolesom izposojenim pri %(bike_share_name)s"
+
+#~ msgid "Your bike route"
+#~ msgstr "Kolesarska pot"
+
+#~ msgid "Walk to the %(bike_share_name)s dock."
+#~ msgstr "Hodite do postaje podjetja %(bike_share_name)s."
+
+#~ msgid "Walk from the %(bike_share_name)s dock to your destination."
+#~ msgstr "Hodite od postaje podjetja %(bike_share_name)s do vašega cilja."
+
+#~ msgid "Your walk route"
+#~ msgstr "Pot peš"
+
+#~ msgid "north"
+#~ msgstr "sever"
+
+#~ msgid "northeast"
+#~ msgstr "severovzhod"
+
+#~ msgid "east"
+#~ msgstr "vzhod"
+
+#~ msgid "southeast"
+#~ msgstr "jugovzhod"
+
+#~ msgid "south"
+#~ msgstr "jug"
+
+#~ msgid "southwest"
+#~ msgstr "jugozahod"
+
+#~ msgid "west"
+#~ msgstr "zahod"
+
+#~ msgid "northwest"
+#~ msgstr "severozahod"
+
+#~ msgctxt "itinerary"
+#~ msgid "depart"
+#~ msgstr "začni pot"
+
+#~ msgid "hard left"
+#~ msgstr "ostro levo"
+
+#~ msgid "left"
+#~ msgstr "levo"
+
+#~ msgid "slight left"
+#~ msgstr "rahlo levo"
+
+#~ msgid "continue"
+#~ msgstr "nadaljujte"
+
+#~ msgid "slight right"
+#~ msgstr "rahlo desno"
+
+#~ msgid "right"
+#~ msgstr "desno"
+
+#~ msgid "hard right"
+#~ msgstr "ostro desno"
+
+#~ msgid "elevator"
+#~ msgstr "pojdite z dvigalom"
+
+#~ msgid "U-turn left"
+#~ msgstr "Polkrožno obrnite v levo"
+
+#~ msgid "U-turn right"
+#~ msgstr "Polkrožno obrnite v desno"
+
+#~ msgid "Walk"
+#~ msgstr "Pešačite"
+
+#~ msgid "Cycle"
+#~ msgstr "Kolesarite"
+
+#~ msgid "Car"
+#~ msgstr "Avto"
+
+#~ msgid "Bus"
+#~ msgstr "Avtobus"
+
+#~ msgid "Subway"
+#~ msgstr "Podzemna železnica"
+
+#~ msgid "Train"
+#~ msgstr "Vlak"
+
+#~ msgid "Light Rail"
+#~ msgstr "Tramvaj"
+
+#~ msgid "Aerial Tram"
+#~ msgstr "Gondola"
+
+#, fuzzy
+#~ msgid "Bicycle rental station"
+#~ msgstr "postaje za izposojo koles"
+
+#, fuzzy
+#~ msgid "Bicycle rental"
+#~ msgstr "postaje za izposojo koles"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take roundabout <b>counterclockwise</b> to <b>%(ordinal_exit_number)s</b> "
+#~ "exit on <b>%(street_name)s</b>"
+#~ msgstr ""
+#~ "V krožišču vozite v <b>nasprotni smeri urinega kazalca</b> in pri <b>"
+#~ "%(ordinal_exit_number)s</b> izvozu zavijte na <b>%(street_name)s</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take roundabout counterclockwise to %(ordinal_exit_number)s exit on "
+#~ "%(street_name)s"
+#~ msgstr ""
+#~ "V krožišču vozite v nasprotni smeri urinega kazalca in pri "
+#~ "%(ordinal_exit_number)s izvozu zavijte na %(street_name)s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take roundabout <b>clockwise</b> to <b>%(ordinal_exit_number)s</b> exit "
+#~ "on <b>%(street_name)s</b>"
+#~ msgstr ""
+#~ "V krožišču vozite v <b>smeri urinega kazalca</b> in pri <b>"
+#~ "%(ordinal_exit_number)s</b> izvozu zavijte na <b>%(street_name)s</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take roundabout clockwise to %(ordinal_exit_number)s exit on "
+#~ "%(street_name)s"
+#~ msgstr ""
+#~ "V krožišču vozite v smeri urinega kazalca in pri %(ordinal_exit_number)s "
+#~ "izvozu zavijte na %(street_name)s"
+
+#~ msgid "Start on"
+#~ msgstr "Začnite na"
+
+#~ msgid " heading "
+#~ msgstr " v smeri "
+
+#~ msgid "to continue on"
+#~ msgstr "nadaljujte na"
+
+#~ msgid "on to"
+#~ msgstr "na"
+
+#~ msgid "%d hr"
+#~ msgid_plural "%d hrs"
+#~ msgstr[0] "%d ur"
+#~ msgstr[1] "%d ura"
+#~ msgstr[2] "%d uri"
+#~ msgstr[3] "%d ure"
+
+#~ msgid "%d min"
+#~ msgid_plural "%d mins"
+#~ msgstr[0] "%d min."
+#~ msgstr[1] "%d min."
+#~ msgstr[2] "%d min."
+#~ msgstr[3] "%d min."
+
+#~ msgid "%d sec"
+#~ msgid_plural "%d secs"
+#~ msgstr[0] "%d sek."
+#~ msgstr[1] "%d sek."
+#~ msgstr[2] "%d sek."
+#~ msgstr[3] "%d sek."
+
+#~ msgid "OK"
+#~ msgstr "V redu"
+
+#~ msgid "Minimize"
+#~ msgstr "Skrči"
+
+#~ msgid "Bring to front"
+#~ msgstr "Postavi v ospredje"
+
+#~ msgid "Send to back"
+#~ msgstr "Pošlji v ozadje"
+
+#~ msgid "Route:"
+#~ msgstr "Linija:"
+
+#~ msgid "Variant:"
+#~ msgstr "Različica:"
+
+#~ msgid "Stop Finder"
+#~ msgstr "Iskalnik postaj"
+
+#~ msgid "Agency"
+#~ msgstr "Podjetje"
+
+#, fuzzy
+#~ msgid "By ID"
+#~ msgstr "Po ID-ju"
+
+#~ msgid "By Name"
+#~ msgstr "Po imenu"
+
+#~ msgid "No Stops Found"
+#~ msgstr "Ni najdenih postaj"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Find Stops"
+#~ msgstr "Poišči postaje"
+
+#~ msgid "(No Stop Selected)"
+#~ msgstr "(Nobena postaja ni bila izbrana)"
+
+#~ msgid "Block"
+#~ msgstr "Blok"
+
+#~ msgid "Recenter"
+#~ msgstr "Prikaži na karti"
+
+#~ msgid "Viewer"
+#~ msgstr "Pregledovalnik"
+
+#~ msgid "All Routes"
+#~ msgstr "Vse linije"
+
+#~ msgid "Save"
+#~ msgstr "Shrani"
+
+#~ msgid "Close"
+#~ msgstr "Zapri"
+
+#~ msgid "Travel Options"
+#~ msgstr "Možnosti potovanja"
+
+#~ msgid "Now"
+#~ msgstr "Zdaj"
+
+#~ msgid "Presets"
+#~ msgstr "Iz seznama"
+
+#~ msgid "Preferred Routes"
+#~ msgstr "Priljubljene linije"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Brez"
+
+#~ msgid "Weight"
+#~ msgstr "Utež"
+
+#~ msgid "Banned routes"
+#~ msgstr "Neželene linije"
+
+#~ msgid "Use"
+#~ msgstr "Uporabi"
+
+#~ msgid "My Own Bike"
+#~ msgstr "Lastno kolo"
+
+#~ msgid "A Shared Bike"
+#~ msgstr "Izposojeno kolo"
+
+#~ msgid "Plan Your Trip"
+#~ msgstr "Načrtuj pot"
