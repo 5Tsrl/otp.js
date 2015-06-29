@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 10:08+0200\n"
+"POT-Creation-Date: 2015-06-29 13:05+0200\n"
 "PO-Revision-Date: 2015-06-29 10:36+0100\n"
 "Last-Translator: Stefan Diewald\n"
 "Language-Team: de <LL@li.org>\n"
@@ -235,45 +235,149 @@ msgid ""
 "end location."
 msgstr ""
 
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:20
+msgid "north"
+msgstr "nord"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:22
+msgid "northeast"
+msgstr "nordost"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:24
+msgid "east"
+msgstr "ost"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:26
+msgid "southeast"
+msgstr "südost"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:28
+msgid "south"
+msgstr "süd"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:30
+msgid "southwest"
+msgstr "südwest"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:32
+msgid "west"
+msgstr "west"
+
+#. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
+#: lib/localization.js:34
+msgid "northwest"
+msgstr "nordwest"
+
+#. TRANSLATORS: Take roundabout [clockwise] to [ordinal exit number] on
+#. streetname...
 #: lib/localization.js:41
+msgid "clockwise"
+msgstr ""
+
+#. TRANSLATORS: Take roundabout [counter clockwise] to [ordinal exit number] on streetname...
+#: lib/localization.js:43
+msgid "counter clockwise"
+msgstr ""
+
+#. TRANSLATORS: depart at street name/corner of x y etc. (First instruction in
+#. itinerary)
+#: lib/localization.js:46
+#, fuzzy
+msgctxt "itinerary"
+msgid "depart"
+msgstr "Abfahrt"
+
+#. TRANSLATORS: [Relative direction (Hard/Slightly Left/Right...)] to continue
+#. on /on to [streetname]
+#: lib/localization.js:49
+msgid "hard left"
+msgstr "scharf links"
+
+#: lib/localization.js:50
+msgid "left"
+msgstr "links"
+
+#: lib/localization.js:51
+msgid "slight left"
+msgstr "links halten"
+
+#: lib/localization.js:52
+#, fuzzy
+msgid "continue"
+msgstr "weiter auf"
+
+#: lib/localization.js:53
+msgid "slight right"
+msgstr "rechts halten"
+
+#: lib/localization.js:54
+msgid "right"
+msgstr "rechts"
+
+#: lib/localization.js:55
+msgid "hard right"
+msgstr "scharf rechts"
+
+#: lib/localization.js:58
+msgid "elevator"
+msgstr ""
+
+#: lib/localization.js:59
+#, fuzzy
+msgid "U-turn left"
+msgstr "scharf links"
+
+#: lib/localization.js:60
+#, fuzzy
+msgid "U-turn right"
+msgstr "scharf rechts"
+
+#: lib/localization.js:107
 #, fuzzy
 msgid "first"
 msgstr "Erster"
 
-#: lib/localization.js:42
+#: lib/localization.js:108
 msgid "second"
 msgstr ""
 
-#: lib/localization.js:43
+#: lib/localization.js:109
 msgid "third"
 msgstr ""
 
-#: lib/localization.js:44
+#: lib/localization.js:110
 msgid "fourth"
 msgstr ""
 
-#: lib/localization.js:45
+#: lib/localization.js:111
 msgid "fifth"
 msgstr ""
 
-#: lib/localization.js:46
+#: lib/localization.js:112
 msgid "sixth"
 msgstr ""
 
-#: lib/localization.js:47
+#: lib/localization.js:113
 msgid "seventh"
 msgstr ""
 
-#: lib/localization.js:48
+#: lib/localization.js:114
 #, fuzzy
 msgid "eight"
 msgstr "Gewichtung"
 
-#: lib/localization.js:49
+#: lib/localization.js:115
 msgid "ninth"
 msgstr ""
 
-#: lib/localization.js:50
+#: lib/localization.js:116
 msgid "tenth"
 msgstr ""
 
@@ -389,53 +493,6 @@ msgstr ""
 #~ msgid "Start"
 #~ msgstr "Abfahrt"
 
-#~ msgid "north"
-#~ msgstr "nord"
-
-#~ msgid "northeast"
-#~ msgstr "nordost"
-
-#~ msgid "east"
-#~ msgstr "ost"
-
-#~ msgid "southeast"
-#~ msgstr "südost"
-
-#~ msgid "south"
-#~ msgstr "süd"
-
-#~ msgid "southwest"
-#~ msgstr "südwest"
-
-#~ msgid "west"
-#~ msgstr "west"
-
-#~ msgid "northwest"
-#~ msgstr "nordwest"
-
-#, fuzzy
-#~ msgctxt "itinerary"
-#~ msgid "depart"
-#~ msgstr "Abfahrt"
-
-#~ msgid "hard left"
-#~ msgstr "scharf links"
-
-#~ msgid "left"
-#~ msgstr "links"
-
-#~ msgid "slight left"
-#~ msgstr "links halten"
-
-#~ msgid "slight right"
-#~ msgstr "rechts halten"
-
-#~ msgid "right"
-#~ msgstr "rechts"
-
-#~ msgid "hard right"
-#~ msgstr "scharf rechts"
-
 #, fuzzy
 #~ msgid "Walk"
 #~ msgstr "zu Fuß gehen"
@@ -474,10 +531,6 @@ msgstr ""
 
 #~ msgid "Bicycle rental"
 #~ msgstr "Fahrradverleih"
-
-#, fuzzy
-#~ msgid "to continue on"
-#~ msgstr "weiter auf"
 
 #, fuzzy
 #~ msgid "OK"
