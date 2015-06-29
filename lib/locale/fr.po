@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 13:05+0200\n"
+"POT-Creation-Date: 2015-06-29 14:31+0200\n"
 "PO-Revision-Date: 2015-06-29 13:10+0100\n"
 "Last-Translator: Nicolas Derive <kalon33@ubuntu.com>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -208,166 +208,170 @@ msgstr "P"
 msgid "Q"
 msgstr "R"
 
-#: lib/models.js:55
+#: lib/models.js:56
 msgid "Click the map or enter an address to select a start location"
 msgstr ""
 
-#: lib/models.js:57
+#: lib/models.js:58
 msgid "Click the map or enter an address to select an end location"
 msgstr ""
 
-#: lib/models.js:72 lib/models.js:80
+#: lib/models.js:75 lib/models.js:83
 msgid ""
 "No transit trips found within 5 miles of your search, try adjusting your "
 "start or end locations. Only major metropolitan areas are currently covered. "
 "Please check back for expanded data coverage."
 msgstr ""
 
-#: lib/models.js:85 lib/models.js:89
+#: lib/models.js:88 lib/models.js:92
 msgid ""
 "Problem finding results for those locations. Please enter a valid start and "
 "end location."
 msgstr ""
 
+#: lib/models.js:97
+msgid "Unable to plan trip."
+msgstr ""
+
+#: lib/localization.js:23
+msgid "first"
+msgstr "première"
+
+#: lib/localization.js:24
+msgid "second"
+msgstr "seconde"
+
+#: lib/localization.js:25
+msgid "third"
+msgstr "troisième"
+
+#: lib/localization.js:26
+msgid "fourth"
+msgstr "quatrième"
+
+#: lib/localization.js:27
+msgid "fifth"
+msgstr "cinquième"
+
+#: lib/localization.js:28
+msgid "sixth"
+msgstr "sixième"
+
+#: lib/localization.js:29
+msgid "seventh"
+msgstr "septième"
+
+#: lib/localization.js:30
+msgid "eight"
+msgstr "huitième"
+
+#: lib/localization.js:31
+msgid "ninth"
+msgstr "neuvième"
+
+#: lib/localization.js:32
+msgid "tenth"
+msgstr "dixième"
+
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:20
+#: lib/localization.js:44
 msgid "north"
 msgstr "nord"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:22
+#: lib/localization.js:46
 msgid "northeast"
 msgstr "nord-est"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:24
+#: lib/localization.js:48
 msgid "east"
 msgstr "est"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:26
+#: lib/localization.js:50
 msgid "southeast"
 msgstr "sud-est"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:28
+#: lib/localization.js:52
 msgid "south"
 msgstr "sud"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:30
+#: lib/localization.js:54
 msgid "southwest"
 msgstr "sud-ouest"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:32
+#: lib/localization.js:56
 msgid "west"
 msgstr "ouest"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:34
+#: lib/localization.js:58
 msgid "northwest"
 msgstr "nord-ouest"
 
 #. TRANSLATORS: Take roundabout [clockwise] to [ordinal exit number] on
 #. streetname...
-#: lib/localization.js:41
+#: lib/localization.js:65
 msgid "clockwise"
 msgstr "dans le sens des aiguilles d'une montre"
 
 #. TRANSLATORS: Take roundabout [counter clockwise] to [ordinal exit number] on streetname...
-#: lib/localization.js:43
+#: lib/localization.js:67
 msgid "counter clockwise"
 msgstr "dans le sens contraire des aiguilles d'une montre"
 
 #. TRANSLATORS: depart at street name/corner of x y etc. (First instruction in
 #. itinerary)
-#: lib/localization.js:46
+#: lib/localization.js:70
 msgctxt "itinerary"
 msgid "depart"
 msgstr "Départ"
 
 #. TRANSLATORS: [Relative direction (Hard/Slightly Left/Right...)] to continue
 #. on /on to [streetname]
-#: lib/localization.js:49
+#: lib/localization.js:73
 msgid "hard left"
 msgstr "complètement à gauche"
 
-#: lib/localization.js:50
+#: lib/localization.js:74
 msgid "left"
 msgstr "à gauche"
 
-#: lib/localization.js:51
+#: lib/localization.js:75
 msgid "slight left"
 msgstr "légèrement à gauche"
 
-#: lib/localization.js:52
+#: lib/localization.js:76
 msgid "continue"
 msgstr "continuer"
 
-#: lib/localization.js:53
+#: lib/localization.js:77
 msgid "slight right"
 msgstr "légèrement à droite"
 
-#: lib/localization.js:54
+#: lib/localization.js:78
 msgid "right"
 msgstr "à droite"
 
-#: lib/localization.js:55
+#: lib/localization.js:79
 msgid "hard right"
 msgstr "complètement à droite"
 
-#: lib/localization.js:58
+#: lib/localization.js:82
 msgid "elevator"
 msgstr "ascenseur"
 
-#: lib/localization.js:59
+#: lib/localization.js:83
 msgid "U-turn left"
 msgstr "virage en U à gauche"
 
-#: lib/localization.js:60
+#: lib/localization.js:84
 msgid "U-turn right"
 msgstr "virage en U à droite"
-
-#: lib/localization.js:107
-msgid "first"
-msgstr "première"
-
-#: lib/localization.js:108
-msgid "second"
-msgstr "seconde"
-
-#: lib/localization.js:109
-msgid "third"
-msgstr "troisième"
-
-#: lib/localization.js:110
-msgid "fourth"
-msgstr "quatrième"
-
-#: lib/localization.js:111
-msgid "fifth"
-msgstr "cinquième"
-
-#: lib/localization.js:112
-msgid "sixth"
-msgstr "sixième"
-
-#: lib/localization.js:113
-msgid "seventh"
-msgstr "septième"
-
-#: lib/localization.js:114
-msgid "eight"
-msgstr "huitième"
-
-#: lib/localization.js:115
-msgid "ninth"
-msgstr "neuvième"
-
-#: lib/localization.js:116
-msgid "tenth"
-msgstr "dixième"
 
 #~ msgid "Bicycle &amp; Transit"
 #~ msgstr "Transports en commun + Vélo"
