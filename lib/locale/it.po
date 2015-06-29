@@ -8,16 +8,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-26 17:47+0200\n"
-"PO-Revision-Date: 2014-06-24 10:27+0100\n"
+"POT-Creation-Date: 2015-06-29 10:08+0200\n"
+"PO-Revision-Date: 2015-06-29 10:35+0100\n"
 "Last-Translator: Rafael Aguilar\n"
 "Language-Team: it <LL@li.org>\n"
-"Language: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 1.3\n"
+"X-Generator: Poedit 1.8.1\n"
+
+#: lib/step.html:9
+#, fuzzy
+msgid ""
+"Take roundabout %(relativeDirection)s to %(ordinal_exit_number)s exit on "
+"%(streetName)s"
+msgstr ""
+"Prendere la rotonda in senso %(relativeDirection)s, %(ordinal_exit_number)s "
+"uscita,  %(streetName)s"
+
+#: lib/step.html:12
+msgid "Start on <b>%(streetName)s</b> heading %(absoluteDirection)s"
+msgstr "Partenza su <b>%(streetName)s</b> in direzione %(absoluteDirection)s"
+
+#: lib/step.html:15
+#, fuzzy
+msgid "<b>%(relativeDirection)s</b> to continue on <b>%(streetName)s</b>"
+msgstr "<b>%(relativeDirection)s</b> continua su <b>%(streetName)s</b>"
+
+#: lib/step.html:17
+msgid "<b>%(relativeDirection)s</b> on to <b>%(streetName)s</b>"
+msgstr "<b>%(relativeDirection)s</b> su <b>%(streetName)s</b>"
 
 #: lib/narrative-itinerary.html:8
 #, fuzzy
@@ -231,44 +254,44 @@ msgid ""
 "end location."
 msgstr ""
 
-#: lib/localization.js:39 lib/localization.js:52
+#: lib/localization.js:41
 #, fuzzy
 msgid "first"
 msgstr "prima"
 
-#: lib/localization.js:40
+#: lib/localization.js:42
 msgid "second"
 msgstr "seconda"
 
-#: lib/localization.js:41
+#: lib/localization.js:43
 msgid "third"
 msgstr "terza"
 
-#: lib/localization.js:42
+#: lib/localization.js:44
 msgid "fourth"
 msgstr "quarta"
 
-#: lib/localization.js:43
+#: lib/localization.js:45
 msgid "fifth"
 msgstr "quinta"
 
-#: lib/localization.js:44
+#: lib/localization.js:46
 msgid "sixth"
 msgstr "sesta"
 
-#: lib/localization.js:45
+#: lib/localization.js:47
 msgid "seventh"
 msgstr "settima"
 
-#: lib/localization.js:46
+#: lib/localization.js:48
 msgid "eight"
 msgstr "ottava"
 
-#: lib/localization.js:47
+#: lib/localization.js:49
 msgid "ninth"
 msgstr "nona"
 
-#: lib/localization.js:48
+#: lib/localization.js:50
 msgid "tenth"
 msgstr "decima"
 
@@ -784,13 +807,6 @@ msgstr "decima"
 #~ msgstr ""
 #~ "Prendere la rotonda in senso <b>orario</b>, <b>%(ordinal_exit_number)s</"
 #~ "b> uscita,  <b>%(street_name)s</b>"
-
-#~ msgid ""
-#~ "Take roundabout clockwise to %(ordinal_exit_number)s exit on "
-#~ "%(street_name)s"
-#~ msgstr ""
-#~ "Prendere la rotonda in senso orario, %(ordinal_exit_number)s uscita,  "
-#~ "%(street_name)s"
 
 #~ msgid "Start on"
 #~ msgstr "Partenza su"

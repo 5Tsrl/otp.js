@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-26 17:47+0200\n"
+"POT-Creation-Date: 2015-06-29 10:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: lib/step.html:9
+msgid ""
+"Take roundabout %(relativeDirection)s to %(ordinal_exit_number)s exit on "
+"%(streetName)s"
+msgstr ""
+
+#: lib/step.html:12
+msgid "Start on <b>%(streetName)s</b> heading %(absoluteDirection)s"
+msgstr ""
+
+#: lib/step.html:15
+msgid "<b>%(relativeDirection)s</b> to continue on <b>%(streetName)s</b>"
+msgstr ""
+
+#: lib/step.html:17
+msgid "<b>%(relativeDirection)s</b> on to <b>%(streetName)s</b>"
+msgstr ""
 
 #: lib/narrative-itinerary.html:8
 msgid "Option"
@@ -204,42 +222,42 @@ msgid ""
 "end location."
 msgstr ""
 
-#: lib/localization.js:39 lib/localization.js:52
+#: lib/localization.js:41
 msgid "first"
 msgstr ""
 
-#: lib/localization.js:40
+#: lib/localization.js:42
 msgid "second"
 msgstr ""
 
-#: lib/localization.js:41
+#: lib/localization.js:43
 msgid "third"
 msgstr ""
 
-#: lib/localization.js:42
+#: lib/localization.js:44
 msgid "fourth"
 msgstr ""
 
-#: lib/localization.js:43
+#: lib/localization.js:45
 msgid "fifth"
 msgstr ""
 
-#: lib/localization.js:44
+#: lib/localization.js:46
 msgid "sixth"
 msgstr ""
 
-#: lib/localization.js:45
+#: lib/localization.js:47
 msgid "seventh"
 msgstr ""
 
-#: lib/localization.js:46
+#: lib/localization.js:48
 msgid "eight"
 msgstr ""
 
-#: lib/localization.js:47
+#: lib/localization.js:49
 msgid "ninth"
 msgstr ""
 
-#: lib/localization.js:48
+#: lib/localization.js:50
 msgid "tenth"
 msgstr ""
