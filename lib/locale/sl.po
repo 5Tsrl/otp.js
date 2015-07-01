@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 14:31+0200\n"
+"POT-Creation-Date: 2015-07-01 14:04+0200\n"
 "PO-Revision-Date: 2015-06-29 13:06+0100\n"
 "Last-Translator: Marko Burjek\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -45,11 +45,11 @@ msgstr "<b>%(relativeDirection)s</b> na <b>%(streetName)s</b>"
 msgid "Option"
 msgstr "Različica"
 
-#: lib/transit-leg.html:23
+#: lib/transit-leg.html:22
 msgid "Time in transit"
 msgstr "Časa na vožnji"
 
-#: lib/transit-leg.html:27
+#: lib/transit-leg.html:26
 msgid "Alight"
 msgstr "Izstop"
 
@@ -74,8 +74,12 @@ msgid "Show Settings"
 msgstr "Pokaži nastavitve"
 
 #: lib/request-form.html:31
-msgid "Arrive"
+msgid "Arrive at"
 msgstr "Prihod do"
+
+#: lib/request-form.html:33
+msgid "Depart by"
+msgstr "Odhod od"
 
 #: lib/request-form.html:62
 msgid "Travel by"
@@ -101,53 +105,54 @@ msgstr "Pešačenje"
 msgid "Bicycle Only"
 msgstr "Kolo"
 
-#: lib/request-form.html:84
+#: lib/request-form.html:83
 msgid "Find"
 msgstr "Poišči"
 
-#: lib/request-form.html:88
+#: lib/request-form.html:87
 msgid "Quickest trip"
 msgstr "Najhitrejšo pot"
 
-#: lib/request-form.html:90
+#: lib/request-form.html:89
 msgid "Fewest transfers"
 msgstr "čim manj prestopov"
 
-#: lib/request-form.html:100
-msgid "Wheelchair accesible trip:"
-msgstr "Primerno za invalidske vozičke:"
+#: lib/request-form.html:99
+#, fuzzy
+msgid "Wheelchair accessible trip"
+msgstr "Primerno za invalidske vozičke"
 
-#: lib/request-form.html:108
+#: lib/request-form.html:107
 #, fuzzy
 msgid "Maximum walk"
 msgstr "Največja razdalja peš"
 
-#: lib/request-form.html:137
+#: lib/request-form.html:136
 #, fuzzy
 msgid "Maximum bike"
 msgstr "Največja razdalja kolesarjenja"
 
-#: lib/request-form.html:173
+#: lib/request-form.html:172
 msgid "Submit"
 msgstr ""
 
-#: lib/request-form.html:176
+#: lib/request-form.html:175
 msgid "Searching"
 msgstr "Iskanje"
 
-#: lib/request-form.html:184
+#: lib/request-form.html:183
 msgid "First"
 msgstr "Prva"
 
-#: lib/request-form.html:186
+#: lib/request-form.html:185
 msgid "Previous"
 msgstr "Prejšnja"
 
-#: lib/request-form.html:188
+#: lib/request-form.html:187
 msgid "Next"
 msgstr "Naslednja"
 
-#: lib/request-form.html:190
+#: lib/request-form.html:189
 msgid "Last"
 msgstr "Zadnja"
 
@@ -159,26 +164,21 @@ msgstr "Začetek poti"
 msgid "Set as End Location"
 msgstr "Konec poti"
 
-#: lib/transit-leg.html:7
+#: lib/transit-leg.html:6
 msgctxt "bus_direction"
 msgid " to "
 msgstr " smer "
 
-#: lib/transit-leg.html:7 lib/access-leg.html:6 lib/generic-leg.html:5
+#: lib/transit-leg.html:6 lib/access-leg.html:5 lib/generic-leg.html:4
 msgctxt "direction"
 msgid " to "
 msgstr " do "
 
-#: lib/transit-leg.html:20
+#: lib/transit-leg.html:19
 #, fuzzy
 msgctxt "itinerary"
 msgid "Depart"
 msgstr "Odhod"
-
-#: lib/request-form.html:33
-msgctxt "tripoptions"
-msgid "Depart"
-msgstr "Odhod ob"
 
 #. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
 #: lib/bike_views.js:33
@@ -210,28 +210,28 @@ msgstr "P"
 msgid "Q"
 msgstr "H"
 
-#: lib/models.js:56
+#: lib/models.js:76
 msgid "Click the map or enter an address to select a start location"
 msgstr ""
 
-#: lib/models.js:58
+#: lib/models.js:78
 msgid "Click the map or enter an address to select an end location"
 msgstr ""
 
-#: lib/models.js:75 lib/models.js:83
+#: lib/models.js:95 lib/models.js:103
 msgid ""
 "No transit trips found within 5 miles of your search, try adjusting your "
 "start or end locations. Only major metropolitan areas are currently covered. "
 "Please check back for expanded data coverage."
 msgstr ""
 
-#: lib/models.js:88 lib/models.js:92
+#: lib/models.js:108 lib/models.js:112
 msgid ""
 "Problem finding results for those locations. Please enter a valid start and "
 "end location."
 msgstr ""
 
-#: lib/models.js:97
+#: lib/models.js:117
 msgid "Unable to plan trip."
 msgstr ""
 
@@ -374,6 +374,10 @@ msgstr "Polkrožno obrnite v levo"
 #: lib/localization.js:84
 msgid "U-turn right"
 msgstr "Polkrožno obrnite v desno"
+
+#~ msgctxt "tripoptions"
+#~ msgid "Depart"
+#~ msgstr "Odhod ob"
 
 #~ msgid "Bicycle &amp; Transit"
 #~ msgstr "Kolo &amp; Javni prevoz"

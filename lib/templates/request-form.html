@@ -27,10 +27,10 @@
     <div class="form-group arriveByControl">
       <div class="col-sm-12">
         <select id="arriveBy" class="apiParam form-control" placeholder="Arrive">
-			{{! TRANSLATORS: Arrive [time dropdown] [date dropdown]. Used in dropdown as a label to choose wanted time/date of arrival. }}
-          <option value="true">{{_ "Arrive"}}</option>
-		  {{! TRANSLATORS:  Depart [time dropdown] [date dropdown]. Used in dropdown as a label to choose wanted time/date of departure }}
-          <option value="false" selected>{{__pgettext "tripoptions" "Depart"}}</option>
+			{{! TRANSLATORS: Arrive at [time dropdown] [date dropdown]. Used in dropdown as a label to choose wanted time/date of arrival. }}
+          <option value="true">{{_ "Arrive at"}}</option>
+		  {{! TRANSLATORS:  Depart by [time dropdown] [date dropdown]. Used in dropdown as a label to choose wanted time/date of departure }}
+          <option value="false" selected>{{_ "Depart by"}}</option>
         </select>
       </div>
     </div>
@@ -96,7 +96,7 @@
         <div class="checkbox">
           <label>
 			  {{! TRANSLATORS: Checkbox label }}
-            <input type="checkbox" name="wheelchairAccessible" id="wheelchairAccessible"> {{_ "Wheelchair accesible trip:"}}
+            <input type="checkbox" name="wheelchairAccessible" id="wheelchairAccessible"> {{_ "Wheelchair accessible trip"}}
           </label>
         </div>
       </div>
