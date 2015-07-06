@@ -8,4 +8,3 @@ window.OTP_config = {
   esriApi: 'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/',
 
   reverseGeocode: true
-}
