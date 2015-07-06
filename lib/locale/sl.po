@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 14:04+0200\n"
+"POT-Creation-Date: 2015-07-06 16:54+0200\n"
 "PO-Revision-Date: 2015-06-29 13:06+0100\n"
 "Last-Translator: Marko Burjek\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "X-Generator: Poedit 1.8.1\n"
 
-#: lib/step.html:9
+#: lib/templates/step.html:9
 msgid ""
 "Take roundabout %(relativeDirection)s to %(ordinal_exit_number)s exit on "
 "%(streetName)s"
@@ -28,350 +28,351 @@ msgstr ""
 "V krožišču vozite %(relativeDirection)s in pri %(ordinal_exit_number)s "
 "izvozu zavijte na %(streetName)s"
 
-#: lib/step.html:12
+#: lib/templates/step.html:12
 msgid "Start on <b>%(streetName)s</b> heading %(absoluteDirection)s"
 msgstr "Začnite na <b>%(streetName)s</b> v smeri %(absoluteDirection)s"
 
-#: lib/step.html:15
+#: lib/templates/step.html:15
 msgid "<b>%(relativeDirection)s</b> to continue on <b>%(streetName)s</b>"
 msgstr "<b>%(relativeDirection)s</b> nadaljujte na <b>%(streetName)s</b>"
 
-#: lib/step.html:17
+#: lib/templates/step.html:17
 msgid "<b>%(relativeDirection)s</b> on to <b>%(streetName)s</b>"
 msgstr "<b>%(relativeDirection)s</b> na <b>%(streetName)s</b>"
 
-#: lib/narrative-itinerary.html:8
+#: lib/templates/narrative-itinerary.html:8
 #, fuzzy
 msgid "Option"
 msgstr "Različica"
 
-#: lib/transit-leg.html:22
+#: lib/templates/transit-leg.html:22
 msgid "Time in transit"
 msgstr "Časa na vožnji"
 
-#: lib/transit-leg.html:26
+#: lib/templates/transit-leg.html:26
 msgid "Alight"
 msgstr "Izstop"
 
-#: lib/narrative-adjust.html:2
+#: lib/templates/narrative-adjust.html:2
 msgid ""
 "Drag start and end location pins on the map or use the form above to adjust "
 "trip settings."
 msgstr ""
 
-#: lib/narrative-new.html:3
+#: lib/templates/narrative-new.html:3
 msgid ""
 "<strong>To plan a trip:</strong> select a start and end location by clicking "
 "the map or by entering an address above."
 msgstr ""
 
-#: lib/request-form.html:21
+#: lib/templates/request-form.html:21
 msgid "Hide Settings"
 msgstr "Skrij nastavitve"
 
-#: lib/request-form.html:22
+#: lib/templates/request-form.html:22
 msgid "Show Settings"
 msgstr "Pokaži nastavitve"
 
-#: lib/request-form.html:31
+#: lib/templates/request-form.html:31
 msgid "Arrive at"
 msgstr "Prihod do"
 
-#: lib/request-form.html:33
+#: lib/templates/request-form.html:33
 msgid "Depart by"
 msgstr "Odhod od"
 
-#: lib/request-form.html:62
+#: lib/templates/request-form.html:62
 msgid "Travel by"
 msgstr "Način potovanja "
 
-#: lib/request-form.html:66
+#: lib/templates/request-form.html:66
 msgid "Transit"
 msgstr "Javni prevoz"
 
-#: lib/request-form.html:68
+#: lib/templates/request-form.html:68
 msgid "Rail Only"
 msgstr "Vlak"
 
-#: lib/request-form.html:70
+#: lib/templates/request-form.html:70
 msgid "Bus Only"
 msgstr "Avtobus"
 
-#: lib/request-form.html:72
+#: lib/templates/request-form.html:72
 msgid "Walk Only"
 msgstr "Pešačenje"
 
-#: lib/request-form.html:74
+#: lib/templates/request-form.html:74
 msgid "Bicycle Only"
 msgstr "Kolo"
 
-#: lib/request-form.html:83
+#: lib/templates/request-form.html:83
 msgid "Find"
 msgstr "Poišči"
 
-#: lib/request-form.html:87
+#: lib/templates/request-form.html:87
 msgid "Quickest trip"
 msgstr "Najhitrejšo pot"
 
-#: lib/request-form.html:89
+#: lib/templates/request-form.html:89
 msgid "Fewest transfers"
 msgstr "čim manj prestopov"
 
-#: lib/request-form.html:99
+#: lib/templates/request-form.html:99
 #, fuzzy
 msgid "Wheelchair accessible trip"
 msgstr "Primerno za invalidske vozičke"
 
-#: lib/request-form.html:107
+#: lib/templates/request-form.html:107
 #, fuzzy
 msgid "Maximum walk"
 msgstr "Največja razdalja peš"
 
-#: lib/request-form.html:136
+#: lib/templates/request-form.html:136
 #, fuzzy
 msgid "Maximum bike"
 msgstr "Največja razdalja kolesarjenja"
 
-#: lib/request-form.html:172
+#: lib/templates/request-form.html:172
 msgid "Submit"
 msgstr ""
 
-#: lib/request-form.html:175
+#: lib/templates/request-form.html:175
 msgid "Searching"
 msgstr "Iskanje"
 
-#: lib/request-form.html:183
+#: lib/templates/request-form.html:183
 msgid "First"
 msgstr "Prva"
 
-#: lib/request-form.html:185
+#: lib/templates/request-form.html:185
 msgid "Previous"
 msgstr "Prejšnja"
 
-#: lib/request-form.html:187
+#: lib/templates/request-form.html:187
 msgid "Next"
 msgstr "Naslednja"
 
-#: lib/request-form.html:189
+#: lib/templates/request-form.html:189
 msgid "Last"
 msgstr "Zadnja"
 
-#: lib/map-context-menu.html:3
+#: lib/templates/map-context-menu.html:3
 msgid "Set as Start Location"
 msgstr "Začetek poti"
 
-#: lib/map-context-menu.html:5
+#: lib/templates/map-context-menu.html:5
 msgid "Set as End Location"
 msgstr "Konec poti"
 
-#: lib/transit-leg.html:6
+#: lib/templates/transit-leg.html:6
 msgctxt "bus_direction"
 msgid " to "
 msgstr " smer "
 
-#: lib/transit-leg.html:6 lib/access-leg.html:5 lib/generic-leg.html:4
+#: lib/templates/transit-leg.html:6 lib/templates/access-leg.html:5
+#: lib/templates/generic-leg.html:4
 msgctxt "direction"
 msgid " to "
 msgstr " do "
 
-#: lib/transit-leg.html:19
+#: lib/templates/transit-leg.html:19
 #, fuzzy
 msgctxt "itinerary"
 msgid "Depart"
 msgstr "Odhod"
 
-#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
-#: lib/bike_views.js:33
-msgid "Quick"
-msgstr "Hitro"
-
-#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for flat terrain
-#: lib/bike_views.js:35
-msgid "Flat"
-msgstr "Položno"
-
-#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for bike friendly infrastructure. Cycle roads etc...
-#: lib/bike_views.js:37
-msgid "Bike Friendly"
-msgstr "Kolesarju prijazno"
-
-#. TRANSLATORS: first letter of Bike Friendly
-#: lib/bike_views.js:79
-msgid "B"
-msgstr "K"
-
-#. TRANSLATORS: first letter of Flat
-#: lib/bike_views.js:84
-msgid "F"
-msgstr "P"
-
-#. TRANSLATORS: first letter of Quick
-#: lib/bike_views.js:89
-msgid "Q"
-msgstr "H"
-
-#: lib/models.js:76
+#: lib/plan-request.js:57
 msgid "Click the map or enter an address to select a start location"
 msgstr ""
 
-#: lib/models.js:78
+#: lib/plan-request.js:59
 msgid "Click the map or enter an address to select an end location"
 msgstr ""
 
-#: lib/models.js:95 lib/models.js:103
+#: lib/plan-request.js:76 lib/plan-request.js:84
 msgid ""
 "No transit trips found within 5 miles of your search, try adjusting your "
 "start or end locations. Only major metropolitan areas are currently covered. "
 "Please check back for expanded data coverage."
 msgstr ""
 
-#: lib/models.js:108 lib/models.js:112
+#: lib/plan-request.js:89 lib/plan-request.js:93
 msgid ""
 "Problem finding results for those locations. Please enter a valid start and "
 "end location."
 msgstr ""
 
-#: lib/models.js:117
+#: lib/plan-request.js:98
 msgid "Unable to plan trip."
 msgstr ""
 
-#: lib/localization.js:23
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for speed
+#: lib/bike-triangle-control.js:35
+msgid "Quick"
+msgstr "Hitro"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for flat terrain
+#: lib/bike-triangle-control.js:37
+msgid "Flat"
+msgstr "Položno"
+
+#. TRANSLATORS: Optimization for bicycle shown in bike triangle. Optimized for bike friendly infrastructure. Cycle roads etc...
+#: lib/bike-triangle-control.js:39
+msgid "Bike Friendly"
+msgstr "Kolesarju prijazno"
+
+#. TRANSLATORS: first letter of Bike Friendly
+#: lib/bike-triangle-control.js:77
+msgid "B"
+msgstr "K"
+
+#. TRANSLATORS: first letter of Flat
+#: lib/bike-triangle-control.js:82
+msgid "F"
+msgstr "P"
+
+#. TRANSLATORS: first letter of Quick
+#: lib/bike-triangle-control.js:87
+msgid "Q"
+msgstr "H"
+
+#: lib/localization.js:33
 msgid "first"
 msgstr "prvem"
 
-#: lib/localization.js:24
+#: lib/localization.js:34
 msgid "second"
 msgstr "drugem"
 
-#: lib/localization.js:25
+#: lib/localization.js:35
 msgid "third"
 msgstr "tretjem"
 
-#: lib/localization.js:26
+#: lib/localization.js:36
 msgid "fourth"
 msgstr "četrtem"
 
-#: lib/localization.js:27
+#: lib/localization.js:37
 msgid "fifth"
 msgstr "petem"
 
-#: lib/localization.js:28
+#: lib/localization.js:38
 msgid "sixth"
 msgstr "šestem"
 
-#: lib/localization.js:29
+#: lib/localization.js:39
 msgid "seventh"
 msgstr "sedmem"
 
-#: lib/localization.js:30
+#: lib/localization.js:40
 msgid "eight"
 msgstr "osmem"
 
-#: lib/localization.js:31
+#: lib/localization.js:41
 msgid "ninth"
 msgstr "devetem"
 
-#: lib/localization.js:32
+#: lib/localization.js:42
 msgid "tenth"
 msgstr "desetem"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:44
+#: lib/localization.js:54
 msgid "north"
 msgstr "sever"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:46
+#: lib/localization.js:56
 msgid "northeast"
 msgstr "severovzhod"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:48
+#: lib/localization.js:58
 msgid "east"
 msgstr "vzhod"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:50
+#: lib/localization.js:60
 msgid "southeast"
 msgstr "jugovzhod"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:52
+#: lib/localization.js:62
 msgid "south"
 msgstr "jug"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:54
+#: lib/localization.js:64
 msgid "southwest"
 msgstr "jugozahod"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:56
+#: lib/localization.js:66
 msgid "west"
 msgstr "zahod"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:58
+#: lib/localization.js:68
 msgid "northwest"
 msgstr "severozahod"
 
 #. TRANSLATORS: Take roundabout [clockwise] to [ordinal exit number] on
 #. streetname...
-#: lib/localization.js:65
+#: lib/localization.js:75
 msgid "clockwise"
 msgstr "v smeri urinega kazalca"
 
 #. TRANSLATORS: Take roundabout [counter clockwise] to [ordinal exit number] on streetname...
-#: lib/localization.js:67
+#: lib/localization.js:77
 msgid "counter clockwise"
 msgstr "v nasprotni smeri urinega kazalca"
 
 #. TRANSLATORS: depart at street name/corner of x y etc. (First instruction in
 #. itinerary)
-#: lib/localization.js:70
+#: lib/localization.js:80
 msgctxt "itinerary"
 msgid "depart"
 msgstr "začni pot"
 
 #. TRANSLATORS: [Relative direction (Hard/Slightly Left/Right...)] to continue
 #. on /on to [streetname]
-#: lib/localization.js:73
+#: lib/localization.js:83
 msgid "hard left"
 msgstr "ostro levo"
 
-#: lib/localization.js:74
+#: lib/localization.js:84
 msgid "left"
 msgstr "levo"
 
-#: lib/localization.js:75
+#: lib/localization.js:85
 msgid "slight left"
 msgstr "rahlo levo"
 
-#: lib/localization.js:76
+#: lib/localization.js:86
 msgid "continue"
 msgstr "nadaljujte"
 
-#: lib/localization.js:77
+#: lib/localization.js:87
 msgid "slight right"
 msgstr "rahlo desno"
 
-#: lib/localization.js:78
+#: lib/localization.js:88
 msgid "right"
 msgstr "desno"
 
-#: lib/localization.js:79
+#: lib/localization.js:89
 msgid "hard right"
 msgstr "ostro desno"
 
-#: lib/localization.js:82
+#: lib/localization.js:92
 msgid "elevator"
 msgstr "pojdite z dvigalom"
 
-#: lib/localization.js:83
+#: lib/localization.js:93
 msgid "U-turn left"
 msgstr "Polkrožno obrnite v levo"
 
-#: lib/localization.js:84
+#: lib/localization.js:94
 msgid "U-turn right"
 msgstr "Polkrožno obrnite v desno"
 
