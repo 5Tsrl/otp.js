@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-06 16:54+0200\n"
+"POT-Creation-Date: 2015-07-28 06:42+0200\n"
 "PO-Revision-Date: 2015-06-29 10:36+0100\n"
 "Last-Translator: Stefan Diewald\n"
 "Language-Team: de <LL@li.org>\n"
@@ -37,6 +37,10 @@ msgstr "<b>%(relativeDirection)s</b> weiter auf <b>%(streetName)s</b>"
 
 #: lib/templates/step.html:17
 msgid "<b>%(relativeDirection)s</b> on to <b>%(streetName)s</b>"
+msgstr ""
+
+#: lib/templates/narrative-itinerary.html:5
+msgid "Print Itinerary"
 msgstr ""
 
 #: lib/templates/narrative-itinerary.html:8
@@ -135,27 +139,31 @@ msgstr "maximale Gehstrecke"
 msgid "Maximum bike"
 msgstr "maximale Fahrradstrecke"
 
-#: lib/templates/request-form.html:172
+#: lib/templates/request-form.html:171
+msgid "Select language"
+msgstr ""
+
+#: lib/templates/request-form.html:180
 msgid "Submit"
 msgstr ""
 
-#: lib/templates/request-form.html:175
+#: lib/templates/request-form.html:183
 msgid "Searching"
 msgstr ""
 
-#: lib/templates/request-form.html:183
+#: lib/templates/request-form.html:191
 msgid "First"
 msgstr "Erster"
 
-#: lib/templates/request-form.html:185
+#: lib/templates/request-form.html:193
 msgid "Previous"
 msgstr "Vorheriger"
 
-#: lib/templates/request-form.html:187
+#: lib/templates/request-form.html:195
 msgid "Next"
 msgstr "Nächster"
 
-#: lib/templates/request-form.html:189
+#: lib/templates/request-form.html:197
 msgid "Last"
 msgstr "Letzter"
 
@@ -239,102 +247,102 @@ msgstr "Fl"
 msgid "Q"
 msgstr "S"
 
-#: lib/localization.js:33
+#: lib/localization.js:128
 #, fuzzy
 msgid "first"
 msgstr "Erster"
 
-#: lib/localization.js:34
+#: lib/localization.js:129
 msgid "second"
 msgstr ""
 
-#: lib/localization.js:35
+#: lib/localization.js:130
 msgid "third"
 msgstr ""
 
-#: lib/localization.js:36
+#: lib/localization.js:131
 msgid "fourth"
 msgstr ""
 
-#: lib/localization.js:37
+#: lib/localization.js:132
 msgid "fifth"
 msgstr ""
 
-#: lib/localization.js:38
+#: lib/localization.js:133
 msgid "sixth"
 msgstr ""
 
-#: lib/localization.js:39
+#: lib/localization.js:134
 msgid "seventh"
 msgstr ""
 
-#: lib/localization.js:40
+#: lib/localization.js:135
 #, fuzzy
 msgid "eight"
 msgstr "Gewichtung"
 
-#: lib/localization.js:41
+#: lib/localization.js:136
 msgid "ninth"
 msgstr ""
 
-#: lib/localization.js:42
+#: lib/localization.js:137
 msgid "tenth"
 msgstr ""
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:54
+#: lib/localization.js:149
 msgid "north"
 msgstr "nord"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:56
+#: lib/localization.js:151
 msgid "northeast"
 msgstr "nordost"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:58
+#: lib/localization.js:153
 msgid "east"
 msgstr "ost"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:60
+#: lib/localization.js:155
 msgid "southeast"
 msgstr "südost"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:62
+#: lib/localization.js:157
 msgid "south"
 msgstr "süd"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:64
+#: lib/localization.js:159
 msgid "southwest"
 msgstr "südwest"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:66
+#: lib/localization.js:161
 msgid "west"
 msgstr "west"
 
 #. TRANSLATORS: Start on [street name] heading [Absolute direction] used in travel plan generation
-#: lib/localization.js:68
+#: lib/localization.js:163
 msgid "northwest"
 msgstr "nordwest"
 
 #. TRANSLATORS: Take roundabout [clockwise] to [ordinal exit number] on
 #. streetname...
-#: lib/localization.js:75
+#: lib/localization.js:170
 msgid "clockwise"
 msgstr ""
 
 #. TRANSLATORS: Take roundabout [counter clockwise] to [ordinal exit number] on streetname...
-#: lib/localization.js:77
+#: lib/localization.js:172
 msgid "counter clockwise"
 msgstr ""
 
 #. TRANSLATORS: depart at street name/corner of x y etc. (First instruction in
 #. itinerary)
-#: lib/localization.js:80
+#: lib/localization.js:175
 #, fuzzy
 msgctxt "itinerary"
 msgid "depart"
@@ -342,45 +350,45 @@ msgstr "Abfahrt"
 
 #. TRANSLATORS: [Relative direction (Hard/Slightly Left/Right...)] to continue
 #. on /on to [streetname]
-#: lib/localization.js:83
+#: lib/localization.js:178
 msgid "hard left"
 msgstr "scharf links"
 
-#: lib/localization.js:84
+#: lib/localization.js:179
 msgid "left"
 msgstr "links"
 
-#: lib/localization.js:85
+#: lib/localization.js:180
 msgid "slight left"
 msgstr "links halten"
 
-#: lib/localization.js:86
+#: lib/localization.js:181
 #, fuzzy
 msgid "continue"
 msgstr "weiter auf"
 
-#: lib/localization.js:87
+#: lib/localization.js:182
 msgid "slight right"
 msgstr "rechts halten"
 
-#: lib/localization.js:88
+#: lib/localization.js:183
 msgid "right"
 msgstr "rechts"
 
-#: lib/localization.js:89
+#: lib/localization.js:184
 msgid "hard right"
 msgstr "scharf rechts"
 
-#: lib/localization.js:92
+#: lib/localization.js:187
 msgid "elevator"
 msgstr ""
 
-#: lib/localization.js:93
+#: lib/localization.js:188
 #, fuzzy
 msgid "U-turn left"
 msgstr "scharf links"
 
-#: lib/localization.js:94
+#: lib/localization.js:189
 #, fuzzy
 msgid "U-turn right"
 msgstr "scharf rechts"
