@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenTripPlanner VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-28 07:21+0200\n"
+"POT-Creation-Date: 2015-07-28 07:42+0200\n"
 "PO-Revision-Date: 2015-06-29 13:08+0100\n"
 "Last-Translator: Rafael Aguilar\n"
 "Language-Team: it <LL@li.org>\n"
@@ -226,6 +226,16 @@ msgstr ""
 #. TRANSLATORS: "From/To marker location" in geocoding input fields. Marker is flag on a map
 #: lib/request-form.js:162 lib/request-form.js:178
 msgid "marker location"
+msgstr ""
+
+#. TRANSLATORS: Label for map Start flag which is shown on hover
+#: lib/request-map-view.js:93
+msgid "Start"
+msgstr ""
+
+#. TRANSLATORS: Label for map End flag which is shown on hover
+#: lib/request-map-view.js:110
+msgid "End"
 msgstr ""
 
 #: lib/plan-request.js:57
